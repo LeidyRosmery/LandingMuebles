@@ -1,0 +1,90 @@
+<link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/css/animate.css?v=a1">
+<link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/css/owl.carousel.min.css?v=a1">
+<link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/css/owl.theme.default.min.css?v=a1">
+<link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/css/main.css?v=a1">
+<!-- section banner - home -->
+<section id="carrusel-banner">
+  <div class="owl-carousel owl-theme">
+    <div class="slider-banner banner-1"></div>
+    <div class="slider-banner banner-2"></div>
+    <div class="slider-banner banner-3"></div>
+  </div>
+</section>
+<!-- fin section banner-home -->
+<section class="contenido">
+  <!-- section categorias -->
+  <div class="" style="margin-bottom:12px">
+    <a class="enlace-categoria" href="#">
+      <div class="row">
+        <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12">
+          <div class="categoria dormitorio">
+            <div class="nombre-categoria text-center">DORMITORIO <span class="glyphicon glyphicon-menu-up"></span></div>
+          </div>
+        </div>
+      </div>
+    </a>
+    <div class="menu menu-dormitorio">
+      <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom">
+          <div class="item-menu  ">Roperos <span class="arrow-item glyphicon glyphicon-menu-right"></div> </div>
+<div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom"><div class="item-menu ">Cómodas <span class="arrow-item glyphicon glyphicon-menu-right"> </div></div>
+<div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom "><div class="item-menu ">Colchones <span class="arrow-item glyphicon glyphicon-menu-right"> </div></div>
+<div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom"><div class="item-menu ">Organización <span class="arrow-item glyphicon glyphicon-menu-right"></div> </div>
+<div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right"><div class="item-menu ">Zapateras <span class="arrow-item glyphicon glyphicon-menu-right"> </div></div>
+</div>
+</div>
+</div>
+<div class="" style="margin-bottom:12px">
+<a class="enlace-categoria" href="#">
+<div class="row">
+<div class="col-xs-12 col-md-12 col-sm-12 col-lg-12">
+<div class="categoria dormitorio">
+  <div class="nombre-categoria text-center">DORMITORIO <span class="glyphicon glyphicon-menu-up"></span></div>
+        </div>
+      </div>
+    </div>
+    </a>
+    <div class="menu menu-dormitorio">
+      <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom">
+          <div class="item-menu  ">Roperos <span class="arrow-item glyphicon glyphicon-menu-right"></div> </div>
+<div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom"><div class="item-menu ">Cómodas <span class="arrow-item glyphicon glyphicon-menu-right"> </div></div>
+<div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom "><div class="item-menu ">Colchones <span class="arrow-item glyphicon glyphicon-menu-right"> </div></div>
+<div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom"><div class="item-menu ">Organización <span class="arrow-item glyphicon glyphicon-menu-right"></div> </div>
+<div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right"><div class="item-menu ">Zapateras <span class="arrow-item glyphicon glyphicon-menu-right"> </div></div>
+</div>
+</div>
+</div>
+<div class="" style="margin-bottom:12px">
+  <a class="enlace-categoria" href="#">
+    <div class="row">
+      <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12">
+        <div class="categoria sala">
+          <div class="nombre-categoria text-center">SALA <span class="arrow-item  glyphicon glyphicon-menu-up"></span></div>
+        </div>
+      </div>
+    </div>
+    </a>
+    <div class="menu menu-sala animated fadeInDown">
+      <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom">
+          <div class="item-menu  ">Roperos <span class="arrow-item glyphicon glyphicon-menu-right"></div> </div>
+        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom"><div class="item-menu ">Cómodas <span class="arrow-item glyphicon glyphicon-menu-right"> </div></div>
+        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom "><div class="item-menu ">Colchones <span class="arrow-item glyphicon glyphicon-menu-right"> </div></div>
+        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom"><div class="item-menu ">Organización <span class="arrow-item glyphicon glyphicon-menu-right"></div> </div>
+        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right"><div class="item-menu ">Zapateras <span class="arrow-item glyphicon glyphicon-menu-right"> </div></div>
+    </div>
+  </div>
+</div>
+
+  <!-- fin seccion categorias -->
+</section>
+<script src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/js/carrusel.js?v=a1"></script>
+<script src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/jquery.min.js?v=a1"></script>
+<script src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/js/owl.carousel.min.js?v=a1"></script>
+
+<script src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/js/app.js?v=a1"></script>
+
+<!-- fin codigo landing Muebles -->
+
+</section>

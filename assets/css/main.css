@@ -1,0 +1,330 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/awesome/fontawesome-webfont.eot');
+  src: url('../fonts/awesome/fontawesome-webfont.eot') format('embedded-opentype'), url('../fonts/awesome/fontawesome-webfont.woff2') format('woff2'), url('../awesome/fonts/fontawesome-webfont.woff') format('woff'), url('../awesome/fonts/fontawesome-webfont.ttf') format('truetype'), url('../fonts/awesome/fontawesome-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'iconvtc';
+  src: url('../fonts/iconvtc/vtc.eot');
+  src: url('../fonts/iconvtc/vtc.eot') format('embedded-opentype'), url('../fonts/iconvtc/vtc.woff') format('woff'), url('../fonts/iconvtc/vtc.woff') format('woff'), url('../fonts/iconvtc/vtc.ttf') format('truetype'), url('../fonts/iconvtc/vtc.svg') format('svg');
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'miso';
+  src: url('../fonts/miso/miso-webfont.eot');
+  src: url('../fonts/miso/miso-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/miso/miso-webfont.woff2') format('woff2'), url('../fonts/miso/miso-webfont.woff') format('woff'), url('../fonts/miso/miso-webfont.ttf') format('truetype'), url('../fonts/miso/miso-webfont.svg#miso') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'misobold';
+  src: url('../fonts/miso-bold/miso-bold-webfont.eot');
+  src: url('../fonts/miso-bold/miso-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/miso-bold/miso-bold-webfont.woff2') format('woff2'), url('../fonts/miso-bold/miso-bold-webfont.woff') format('woff'), url('../fonts/miso-bold/miso-bold-webfont.ttf') format('truetype'), url('../fonts/miso-bold/miso-bold-webfont.svg#misobold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'handsean';
+  src: url('../fonts/handsean/handsean-webfont.eot');
+  src: url('../fonts/handsean/handsean-webfont.eot') format('embedded-opentype'), url('../fonts/handsean/handsean-webfont.woff2') format('woff2'), url('../fonts/handsean/handsean-webfont.woff') format('woff'), url('../fonts/handsean/handsean-webfont.ttf') format('truetype'), url('../fonts/handsean/handsean-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/****************************************************************************************/
+
+/****************************************************************************************/
+
+/* css sodimac-incial*/
+
+/****************************************************************************************/
+
+/****************************************************************************************/
+
+.breadrumbWrap {
+  display: none;
+}
+
+#main.newMainSection>.container {
+  padding-right: 0px;
+  padding-left: 0px;
+  overflow: hidden;
+}
+
+#main.newMainSection {
+  margin: 0!important;
+}
+
+#main.newMainSection>.container>.col-md-12 {
+  padding: 0!important;
+}
+
+.container.breadcrumb.hidden-md.hidden-lg.newMbreadrumb {
+  display: none !important;
+}
+
+#main.newMainSection>.container {
+  width: 100%;
+}
+
+.contenido {
+  padding-left: 15px;
+  background: #e4e4e4;
+  padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+  .contenido {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .contenido {
+    width: 970px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contenido {
+    width: 1030px;
+  }
+}
+
+.contenido, .contenedor-carrousel {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* fin css sodimac-inicial */
+
+/****************************************************************************************/
+
+/****************************************************************************************/
+
+/* css generales */
+
+/****************************************************************************************/
+
+/****************************************************************************************/
+
+.pad-0 {
+  padding: 0;
+}
+
+/* fin css generales */
+
+/****************************************************************************************/
+/****************************************************************************************/
+
+/****************************************************************************************/
+/* css banner */
+/****************************************************************************************/
+
+#carrusel-banner {
+  background: #e4e4e4;
+}
+
+.slider-banner {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+.banner-1 {
+  background-image: url(../img/banner/mobile/banner-web1.jpg);
+}
+
+.banner-2 {
+  background-image: url(../img/banner/mobile/banner-web2.jpg);
+}
+
+.banner-3 {
+  background-image: url(../img/banner/mobile/banner-web3.jpg);
+}
+
+.prev-banner, .next-banner {
+  width: 22px;
+  height: 40px;
+  margin-top: -20px;
+  position: absolute;
+  top: 42%;
+}
+
+#carrusel-banner .owl-dot span {
+  background: #fff;
+}
+
+#carrusel-banner .owl-dot.active span {
+  background: #0072CE;
+}
+
+.prev-banner {
+  left: 10px;
+}
+
+.next-banner {
+  right: 10px;
+}
+
+/* fin css banner */
+
+/* *******************************************************  */
+
+/* ***************** media css para categoria ***************  */
+
+/* *******************************************************  */
+
+.categoria {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 220px;
+  border-bottom: 5px solid #0072CE;
+}
+
+.categoria.dormitorio {
+  background-image: url(../img/categorias/mobile/banner-web3.jpg);
+}
+.categoria.sala {
+  background-image: url(../img/categorias/mobile/banner-web1.jpg);
+}
+.nombre-categoria {
+  font-family: 'miso';
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #0072CE;
+  background: #fff;
+  width: 50%;
+  margin: 0 auto;
+  height: 40px;
+  z-index: 21;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  justify-content: center;
+  bottom: 5px;
+  left: 25%;
+}
+
+.enlace-categoria {
+  display: block;
+     /* padding-bottom: 12px; */
+     z-index: 200;
+/* background:  #0072CE; */
+}
+
+.menu {
+  background: #0072CE;
+  color: #fff;
+  padding: 15px 25px;
+  display: none;
+  /* z-index: -1; */
+  margin-bottom: 12px;
+  /* transition: all 3s; */
+}
+
+.pad-toggle{
+  padding-bottom: 0;
+}
+
+.item-menu {
+  display: flex;
+  align-items: center;
+  font-family: 'miso';
+  font-size: 1.7em;
+  text-align: left;
+  width: 100%;
+  float: right;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 10px;
+}
+.nombre-categoria.active:before {
+    content: '';
+    position: absolute;
+    border-width: 8px;
+    transition: all 1s;
+    z-index: 20;
+    border-color: #fff transparent transparent transparent;
+    bottom: -16px;
+    border-style: solid;
+    right: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+    /* display: none; */
+}
+
+.arrow-item {
+  font-size: 1.4em;
+  color: #fff;
+}
+
+.bd-bottom {
+  border-bottom: 1px solid #fff;
+}
+
+.bd-right {
+  border-right: 1px solid #fff;
+}
+
+/* fin media css para desktop */
+
+/* ******************************************************  */
+
+/* *******************************************************  */
+
+/* ***************** media css para desktop ***************  */
+
+/* *******************************************************  */
+
+/* *******************************************************  */
+
+@media (min-width: 992px) {
+  /* *******************************************************  */
+  /* ***************** media css para banner ***************  */
+  /* *******************************************************  */
+  .slider-banner {
+    height: 445px;
+  }
+  #carrusel-banner .owl-dot {
+    background: #000;
+    opacity: .3;
+    width: 32.9%;
+    height: 10px;
+    margin: 0 1px;
+  }
+  #carrusel-banner .owl-dot.active {
+    background: #0072CE;
+    opacity: 1;
+  }
+  #carrusel-banner .owl-dots {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 22px;
+    height: 12px;
+  }
+}
+
+/* fin media css para desktop */
+
+/* *******************************************************  */
+
+/* ***************** media css para categoria ***************  */
+
+/* *******************************************************  */
+
+/* fin media css para desktop */
