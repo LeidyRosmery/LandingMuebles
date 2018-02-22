@@ -39,8 +39,8 @@ $("#more").on('click', function() {
 
 $(document).ready(function() {
   if (widthWindows > 992) {
-    $('.menu').removeClass('fadeInDown');
-      $('.menu').addClass('fadeInLeft');
+    // $('.menu').removeClass('fadeInDown');
+      // $('.menu').addClass('fadeInLeft');
     $('#carrusel-banner .owl-dot').empty();
     $('.link-banner').on('click', function(e) {
       e.preventDefault();

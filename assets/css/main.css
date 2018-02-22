@@ -336,6 +336,22 @@ a:hover {
   }
 }
 
+@keyframes animationArrow {
+  0% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  50% {
+    -webkit-transform: translate3d(0, 5px, 0);
+    transform: translate3d(0, 5px, 0);
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+}
+
+
 .mueble {
   margin-bottom: 12px;
 }
@@ -515,7 +531,7 @@ a:hover {
 .btn-more {
   color: #fff;
   font-family: miso;
-  font-size: 2em;
+  font-size: 1.7em;
   background: #0072CE;
   border: none;
   display: inline-block;
@@ -719,9 +735,47 @@ a.link-video-tip {
   /* ******************************************* */
   .mueble {
     margin-bottom: 20px;
+    position: relative;
+  }
+  .bd-bottom {
+      border: none;
+  }
+  .item-menu{
+    border-bottom: 1px solid #fff;
+  }
+  .menu{
+    bottom: -12px;
+    position: absolute;
+    height: 387px;
+    opacity: 1;
+    /* -webkit-transition: width 10s; /* For Safari 3.1 to 6.0 */
+    /*transition: width 10s; */
+    width: 0px;
+    display: flex;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: #0072CE;
+  }
+  .container-menu{
+    opacity: 0;
+    -webkit-transition: opacity 2.5s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 2.5s;
+  }
+  .mueble:hover .menu{
+      width: 272px;
+  
+  }
+  .mueble:hover .container-menu{
+  opacity: 1;
+  }
+  .pad-0 {
+      padding: 0 35px;
   }
   .categoria {
     height: 387px;
+    position: relative;
     border: none;
     border-left: 5px solid #0072CE;
   }
