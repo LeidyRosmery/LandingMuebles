@@ -446,25 +446,25 @@
           </section>
           <script type="text/javascript" language="javascript">
             /*
-                                                                                                            You can use below ways to define rule.
-                                                                                                            1. "checkName" : {"msg":"your error message"}.
-                                                                                                            2. "checkName" : {"regex":"your regex expression","msg":"your error message"}.
+                                                                                                                                    You can use below ways to define rule.
+                                                                                                                                    1. "checkName" : {"msg":"your error message"}.
+                                                                                                                                    2. "checkName" : {"regex":"your regex expression","msg":"your error message"}.
 
-                                                                                                            For 1, you should add the mapping into validator.funMapping, such as:
-                                                                                                                validator.funMapping["your checkName"]= your check method for this check name.
-                                                                                                                validator.funMapping["test"]=validator.checkTest;
-                                                                                                                In the jsp, you can use it like this.  class="validate[test]"
+                                                                                                                                    For 1, you should add the mapping into validator.funMapping, such as:
+                                                                                                                                        validator.funMapping["your checkName"]= your check method for this check name.
+                                                                                                                                        validator.funMapping["test"]=validator.checkTest;
+                                                                                                                                        In the jsp, you can use it like this.  class="validate[test]"
 
-                                                                                                            For 2. You only need to use it in the jsp like this. class="custom[checkName]".
+                                                                                                                                    For 2. You only need to use it in the jsp like this. class="custom[checkName]".
 
-                                                                                                            For1 & 2, you can add a special error/success message render function. Sample:
-                                                                                                                "required" : {
-                                                                                                                    (required)"msg" : "error message",
-                                                                                                                    (optional)"regex" : "your regex expression",
-                                                                                                                    (optional)"succCall" : validator.requiredSuccCall,
-                                                                                                                    (optional)"errorCall" : validator.requiredErrorCall
-                                                                                                                }
-                                                                                                            */
+                                                                                                                                    For1 & 2, you can add a special error/success message render function. Sample:
+                                                                                                                                        "required" : {
+                                                                                                                                            (required)"msg" : "error message",
+                                                                                                                                            (optional)"regex" : "your regex expression",
+                                                                                                                                            (optional)"succCall" : validator.requiredSuccCall,
+                                                                                                                                            (optional)"errorCall" : validator.requiredErrorCall
+                                                                                                                                        }
+                                                                                                                                    */
             function initRules() {
               allRules = {
                 //Have the single function checking.
@@ -2748,8 +2748,8 @@ color: white !important;
 
           <script type="text/javascript">
             /**
-                                                                                                            $( ".sub-nav.jq-subNav>li:first-child").before( "<li class='firstHover' ><a  href='http://www.sodimac.com.pe/sodimac-pe/content/a260001/Cyber-Peru-Sodimac' target='_self' title='Cyber Days'>Cyber Days</a></li>" );
-                                                                                                            console.log("prueba1");**/
+                                                                                                                                    $( ".sub-nav.jq-subNav>li:first-child").before( "<li class='firstHover' ><a  href='http://www.sodimac.com.pe/sodimac-pe/content/a260001/Cyber-Peru-Sodimac' target='_self' title='Cyber Days'>Cyber Days</a></li>" );
+                                                                                                                                    console.log("prueba1");**/
 
 
             $(".categoryDropdown1 > .sub-nav.jq-subNav>li:first-child").before("<li class='firstHover' ><a  href='http://www.sodimac.com.pe/sodimac-pe/CMR/N-1z141ek' target='_self' title='Imbatibles CMR'>Imbatibles CMR</a></li>");
@@ -3120,89 +3120,552 @@ color: white !important;
         <link rel="stylesheet" href="/assets/css/animate.css">
         <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
         <link rel="stylesheet" href="/assets/css/owl.theme.default.min.css">
+                <link rel="stylesheet" href="/assets/css/slick.css">
+                        <link rel="stylesheet" href="/assets/css/slick-theme.css">
         <link rel="stylesheet" href="/assets/css/main.css">
-        <!-- section banner - home -->
-        <section id="carrusel-banner">
-          <div class="owl-carousel owl-theme">
-            <div class="slider-banner banner-1"></div>
-            <div class="slider-banner banner-2"></div>
-            <div class="slider-banner banner-3"></div>
+        <section class="banner-main">
+          <div class="row">
+            <div class="banner-home text-center">
+              <div class="slider-drag1 ">
+                <div class="slider-header slider-header-1">
+                  <a class="link-banner" href="http://www.sodimac.com.pe/sodimac-pe/product/2262231C/Escritorio-en-L-+-Silla-Verona-negra/?cid=vtrlnd11144" title="Click" onclick="ga('send', 'event', '2018_2_Landing_Home_DeVueltaAlCole', 'Click', 'Boton_ComboEscritorioSilla')">
+                    <div class="contenedor-logo">
+                      <img class="logo-banner img-responsive" src="/assets/img/banner/logo_banner.svg" alt="logo-banner">
+                    </div>
+                    <div class="contenedor-detail-product">
+                      <div class="detail-producto">
+                        <img class="img-combo" src="/assets/img/banner/combo.png" class="text-left" alt="imagen-combo">
+                        <p class="text-producto">Escritorio en L +</p>
+                        <p class="text-producto">Silla Verona</p>
+                        <p class="text-marca">SKU 2262231/2029162</p>
+                        <span class="text-precio">S/ 299 <span class="text-decimal">.90</span></span>
+                        <img class="hidden-xs hidden-sm mini-img" src="/assets/img/banner/silla.jpg" alt="img-silla">
+                      </div>
+                      <a class="view-more" href="http://www.sodimac.com.pe/sodimac-pe/product/2262231C/Escritorio-en-L-+-Silla-Verona-negra/?cid=vtrlnd11144" title="Click" onclick="ga('send', 'event', '2018_2_Landing_Home_DeVueltaAlCole', 'Click', 'Boton_ComboEscritorioSilla')">+ Ver más</a>
+                    </div>
+                  </a>
+
+                </div>
+                <div class="slider-header slider-header-2">
+                  <a class="link-banner" href="http://www.sodimac.com.pe/sodimac-pe/product/2579375/Escritorio-en-L/?cid=vtrlnd11146" title="Click" onclick="ga('send', 'event', '2018_2_Landing_Home_DeVueltaAlCole', 'Click', 'Boton_ComboRoperoComoda')">
+                    <div class="contenedor-logo">
+                      <img class="logo-banner img-responsive" src="/assets/img/banner/logo_banner.svg" alt="logo-banner">
+                    </div>
+                    <div class="contenedor-detail-product">
+                      <div class="detail-producto">
+                        <img class="img-combo" src="/assets/img/banner/combo.png" class="text-left" alt="imagen-combo">
+                        <p class="text-producto">Ropero + Cómoda</p>
+                        <p class="text-producto">Escritorio</p>
+                        <p class="text-marca">SKU 2579375</p>
+                        <span class="text-precio">S/ 499 <span class="text-decimal">.90</span></span>
+                      </div>
+                      <a class="view-more" href="http://www.sodimac.com.pe/sodimac-pe/product/2579375/Escritorio-en-L/?cid=vtrlnd11146" title="Click" onclick="ga('send', 'event', '2018_2_Landing_Home_DeVueltaAlCole', 'Click', 'Boton_ComboRoperoComoda')">+ Ver más</a>
+                    </div>
+                  </a>
+                </div>
+                <div class="slider-header slider-header-3">
+                  <a class="link-banner" href="http://www.sodimac.com.pe/sodimac-pe/product/1279181/Cubos-creativos-x-8-unidades/?cid=vtrlnd11145" title="Click" onclick="ga('send', 'event', '2018_2_Landing_Home_DeVueltaAlCole', 'Click', 'Boton_ComboCubosCreativos')">
+                    <div class="contenedor-logo">
+                      <img class="logo-banner img-responsive" src="/assets/img/banner/logo_banner.svg" alt="logo-banner">
+                    </div>
+                    <div class="contenedor-detail-product">
+                      <div class="detail-producto">
+                        <img class="img-combo" src="/assets/img/banner/combo.png" class="text-left" alt="imagen-combo">
+                        <p class="text-producto">Cubos creativos</p>
+                        <p class="text-producto">x 8 und. Kids</p>
+                        <p class="text-marca ">SKU 1279181</p>
+                        <span class="text-precio">S/ 119 <span class="text-decimal">.90</span></span>
+                      </div>
+                      <a class="view-more" href="http://www.sodimac.com.pe/sodimac-pe/product/1279181/Cubos-creativos-x-8-unidades/?cid=vtrlnd11145" title="Click" onclick="ga('send', 'event', '2018_2_Landing_Home_DeVueltaAlCole', 'Click', 'Boton_ComboCubosCreativos')">+ Ver más</a>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
         <!-- fin section banner-home -->
         <section class="contenido">
           <!-- section categorias -->
-          <div class="" style="margin-bottom:12px">
-            <a class="enlace-categoria" href="#">
-              <div class="row">
-                <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12">
-                  <div class="categoria dormitorio">
-                    <div class="nombre-categoria text-center">DORMITORIO <span class="glyphicon glyphicon-menu-up"></span></div>
-                  </div>
-                </div>
-              </div>
-            </a>
-            <div class="menu menu-dormitorio">
-              <div class="row">
-                <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom">
-                  <div class="item-menu  ">Roperos <span class="arrow-item glyphicon glyphicon-menu-right"></div> </div>
-        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom"><div class="item-menu ">Cómodas <span class="arrow-item glyphicon glyphicon-menu-right"> </div></div>
-        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom "><div class="item-menu ">Colchones <span class="arrow-item glyphicon glyphicon-menu-right"> </div></div>
-        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom"><div class="item-menu ">Organización <span class="arrow-item glyphicon glyphicon-menu-right"></div> </div>
-        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right"><div class="item-menu ">Zapateras <span class="arrow-item glyphicon glyphicon-menu-right"> </div></div>
-    </div>
-  </div>
-</div>
-<div class="" style="margin-bottom:12px">
-  <a class="enlace-categoria" href="#">
-    <div class="row">
-      <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12">
-        <div class="categoria dormitorio">
-          <div class="nombre-categoria text-center">DORMITORIO <span class="glyphicon glyphicon-menu-up"></span></div>
-                </div>
-              </div>
-            </div>
-            </a>
-            <div class="menu menu-dormitorio">
-              <div class="row">
-                <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom">
-                  <div class="item-menu  ">Roperos <span class="arrow-item glyphicon glyphicon-menu-right"></div> </div>
-        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom"><div class="item-menu ">Cómodas <span class="arrow-item glyphicon glyphicon-menu-right"> </div></div>
-        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom "><div class="item-menu ">Colchones <span class="arrow-item glyphicon glyphicon-menu-right"> </div></div>
-        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom"><div class="item-menu ">Organización <span class="arrow-item glyphicon glyphicon-menu-right"></div> </div>
-        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right"><div class="item-menu ">Zapateras <span class="arrow-item glyphicon glyphicon-menu-right"> </div></div>
-    </div>
-  </div>
-</div>
-<div class="" style="margin-bottom:12px">
-          <a class="enlace-categoria" href="#">
+          <div class="mueble-dormitorio" style="margin-bottom:12px">
+            <div class="categoria dormitorio">
             <div class="row">
-              <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12">
-                <div class="categoria sala">
-                  <div class="nombre-categoria text-center">SALA <span class="arrow-item  glyphicon glyphicon-menu-up"></span></div>
+              <div class="col-xs-12 hidden-md">
+                  <div class="nombre-categoria text-center">AMUEBLA DORMITORIO <span class="arrow arrow-categoria glyphicon glyphicon-menu-down"></span></div>
                 </div>
               </div>
             </div>
-            </a>
+
+            <div class="menu menu-dormitorio animated fadeInDown">
+              <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom">
+                  <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10314/Roperos " class="link-menu">
+                    <div class="item-menu  ">Ropero <span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+                  </a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom">
+                  <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10546/Colchones-y-Tarimas" class="link-menu">
+                    <div class="item-menu  ">Colchones<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+                  </a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom ">
+                  <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10316/Zapateras" class="link-menu">
+                    <div class="item-menu  ">Zapateras<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+                  </a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom">
+                  <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10312/Comodas-y-Cajoneas" class="link-menu">
+                    <div class="item-menu  ">Cómodas<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+                  </a>
+
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right ">
+                  <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10480/Organizacion-de-ropero" class="link-menu">
+                    <div class="item-menu  ">Organización de dormitorio<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mueble-sala" style="margin-bottom:12px">
+            <div class="categoria sala">
+            <div class="row">
+              <div class="col-xs-12 hidden-md">
+                  <div class="nombre-categoria text-center">SALA <span class="arrow arrow-categoria glyphicon glyphicon-menu-down"></span></div>
+                </div>
+              </div>
+            </div>
+
             <div class="menu menu-sala animated fadeInDown">
               <div class="row">
                 <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom">
-                  <div class="item-menu  ">Roperos <span class="arrow-item glyphicon glyphicon-menu-right"></div> </div>
-                <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom"><div class="item-menu ">Cómodas <span class="arrow-item glyphicon glyphicon-menu-right"> </div></div>
-                <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom "><div class="item-menu ">Colchones <span class="arrow-item glyphicon glyphicon-menu-right"> </div></div>
-                <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom"><div class="item-menu ">Organización <span class="arrow-item glyphicon glyphicon-menu-right"></div> </div>
-                <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right"><div class="item-menu ">Zapateras <span class="arrow-item glyphicon glyphicon-menu-right"> </div></div>
+                  <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10530/Sofas-Cama-y-Futones" class="link-menu">
+                    <div class="item-menu  ">Futones <span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+                  </a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom">
+                  <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat2229007/Mesas-Auxiliares" class="link-menu">
+                    <div class="item-menu  ">Mesas deco<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+                  </a>
+
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom ">
+                  <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat2589002/Juegos-de-Sala" class="link-menu">
+                    <div class="item-menu  ">Juego de sala<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+                  </a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom">
+                  <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat2369032/Reclinables" class="link-menu">
+                    <div class="item-menu  ">Reclinables<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+                  </a>
+
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right ">
+                  <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10506/Centros-de-Entretenimiento" class="link-menu">
+                    <div class="item-menu  ">Centro de televisión<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
-</div>
+          <div class="mueble-comedor" style="margin-bottom:12px">
+            <div class="categoria comedor">
+            <div class="row">
+              <div class="col-xs-12 hidden-md">
+                  <div class="nombre-categoria text-center">COMEDOR <span class="arrow arrow-categoria glyphicon glyphicon-menu-down"></span></div>
+                </div>
+              </div>
+            </div>
 
+            <div class="menu menu-comedor animated fadeInDown">
+              <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom">
+                  <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat549146/Juegos-de-Comedor" class="link-menu">
+                    <div class="item-menu  ">Juegos de comedor <span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+                  </a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom">
+                  <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat2229002/SillasdeComedor" class="link-menu">
+                    <div class="item-menu  ">Sillas de comedor<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+                  </a>
+
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right ">
+                  <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat919025/Bancos-y-Sillas-de-Bar" class="link-menu">
+                    <div class="item-menu  ">Muebles de bar<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="mueble-estudio" style="margin-bottom:12px">
+            <div class="categoria estudio">
+            <div class="row">
+              <div class="col-xs-12 hidden-md">
+                  <div class="nombre-categoria text-center">ESTUDIO<span class="arrow arrow-categoria glyphicon glyphicon-menu-down"></span></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu menu-estudio animated fadeInDown">
+              <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom">
+                  <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10300/Escritorios" class="link-menu">
+                    <div class="item-menu  ">Escritorio <span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+                  </a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom">
+                  <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10294/Estantes-y-Libreros" class="link-menu">
+                    <div class="item-menu  ">Libreros<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+                  </a>
+
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0  bd-right ">
+                  <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10484/Sets-de-escritorio-y-utiles" class="link-menu">
+                    <div class="item-menu  ">Organización de  escritorio<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+                  </a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0  ">
+                  <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat3189007/Sillas-de-oficina" class="link-menu">
+                    <div class="item-menu  ">Sillas de  escritorio<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="mueble-deco" style="margin-bottom:12px">
+            <div class="categoria deco">
+            <div class="row">
+              <div class="col-xs-12 hidden-md">
+                  <div class="nombre-categoria text-center">DECORA TUS ESPACIOS<span class="arrow arrow-categoria glyphicon glyphicon-menu-down"></span></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu menu-deco animated fadeInDown">
+              <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom">
+                  <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10800/Alfombras-Decorativas" class="link-menu">
+                    <div class="item-menu  ">Alfombras <span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+                  </a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom">
+                  <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10818/Cuadros" class="link-menu">
+                    <div class="item-menu  ">Cuadros<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+                  </a>
+
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right  ">
+                  <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10822/Cortinas-de-Tela" class="link-menu">
+                    <div class="item-menu  ">Cortinas<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+                  </a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0  ">
+                  <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10892/Lamparas-de-Mesa" class="link-menu">
+                    <div class="item-menu  ">Iluminación<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="mueble-infantil" style="margin-bottom:12px">
+            <div class="categoria infantil">
+            <div class="row">
+              <div class="col-xs-12 hidden-md">
+                  <div class="nombre-categoria text-center">ESPACIO INFANTIL<span class=" arrow arrow-categoria glyphicon glyphicon-menu-down"></span></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu menu-infantil animated fadeInDown">
+              <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom">
+                  <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat1049021/Muebles-de-Dormitorio-para-ninos" class="link-menu">
+                    <div class="item-menu  ">Muebles dormitorio <span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+                  </a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom">
+                  <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat3189008/Organizacion" class="link-menu">
+                    <div class="item-menu  ">Organizacion infantil<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+                  </a>
+
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0  bd-right">
+                  <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10538/Escritorios-para-Ninos" class="link-menu">
+                    <div class="item-menu  ">Escritorios<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
           <!-- fin seccion categorias -->
-        </section>
-        <script src="/assets/js/carrusel.js"></script>
-        <script src="/assets/jquery.min.js"></script>
-        <script src="/assets/js/owl.carousel.min.js"></script>
+          <!-- section css video -->
+          <div class="section-videos-tips">
+          <div class="row">
+            <div class="slider-for">
+              <div class="col-md-12 col-lg-12 hidden-xs hidden-sm">
+                <a href="https://www.youtube.com/watch?v=84096kP8Hwc" data-video="0" class="link-video popup-youtube" title="Click" >
+                  <div class="img-video-tip video-tip-current video-tip-1">
+                    <div class="space-left text-center">
+                      <div class="contenedor-img-current text-center">
+                        <img class="img-current text-center img-responsive" src="/assets/img/logo-video/optimizacion_de_espacios.svg" alt="">
+                      </div>
 
-        <script src="/assets/js/app.js"></script>
+                      <p class="text-current">Aprovecha un rincón de tu dormitorio y conviértelo en tu zona de estudio. Aprende a integrar un escritorio en tu habitación con los siguientes consejos.</p>
+                    </div>
+                    <img class="div-play-current" src="/assets/img/video-tip/play_azul.svg" alt="play-video">
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-12 col-lg-12 hidden-xs hidden-sm">
+                <a data-video="1" class="link-video popup-youtube" href="https://www.youtube.com/watch?v=DdfzjtEiyO0" title="Click" >
+                  <div class="img-video-tip video-tip-current video-tip-2">
+                    <div class="space-left text-center">
+                      <div class="contenedor-img-current text-center">
+                        <img class="img-current text-center img-responsive" src="/assets/img/logo-video/organizacion_de_espacios.svg" alt="">
+                      </div>
+
+                      <p class="text-current">Una área de estudio ordenada incrementa la atención y rendimiento académico. Clasifica tus objetos de uso diario y evita el desorden con los siguientes tips.
+                      </p>
+                    </div>
+                    <img class="div-play-current" src="/assets/img/video-tip/play_azul.svg" alt="play-video">
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-12 col-lg-12 hidden-xs hidden-sm">
+                <a href="https://www.youtube.com/watch?v=FDFGSNfSSXM" class="link-video popup-youtube" data-video="2" title="Click">
+                  <div class="img-video-tip video-tip-current video-tip-3">
+                    <div class="space-left text-center">
+                      <div class="contenedor-img-current text-center">
+                        <img class="img-current text-center img-responsive" src="/assets/img/logo-video/locheras_nutritivas.svg" alt="">
+                      </div>
+                      <p class="text-current">Una buena alimentación estimula la concentración y renueva la energía durante el día. Prepara una lonchera saludable siguiendo estos consejos.
+                        <img class="div-play-current" src="/assets/img/video-tip/play_azul.svg" alt="play-video">
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="contenedor-item-tip">
+            <div class="row">
+              <div class="hidden-lg hidden-md ">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip">
+                  <div class="img-video-tip video-tip-1">
+                    <a class="link-video-tip" title="Click"  data-video="0" href="https://www.youtube.com/watch?v=84096kP8Hwc">
+                      <div class="contenedor-video-tip">
+                        <div class="title-video-tip">
+                          <p class="hidden-md hidden-lg">OPTIMIZA </p>
+                          <p class="hidden-md hidden-lg"> TUS ESPACIOS</p>
+                          <p class="hidden-xs hidden-sm">OPTIMIZA TUS ESPACIOS</p>
+                        </div>
+                      </div>
+                      <img class="div-play" src="/assets/img/video-tip/play_azul.svg" alt="play-video">
+                    </a>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip">
+                  <div class="img-video-tip video-tip-2">
+                    <a class="link-video-tip" title="Click"  data-video="1" href="https://youtu.be/DdfzjtEiyO0">
+                      <div class="contenedor-video-tip">
+                        <div class="title-video-tip">
+                          <p class="hidden-md hidden-lg">ORGANIZA TU </p>
+                          <p class="hidden-md hidden-lg">ESCRITORIO</p>
+                          <p class="hidden-xs hidden-sm">ORGANIZA TU ESCRITORIO</p>
+                        </div>
+                      </div>
+                      <img class="div-play" src="/assets/img/video-tip/play_azul.svg" alt="play-video">
+                    </a>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip">
+                  <div class="img-video-tip video-tip-3">
+                    <a class="link-video-tip" data-video="2" title="Click"  href="https://www.youtube.com/watch?v=FDFGSNfSSXM">
+                      <div class="contenedor-video-tip">
+                        <div class="title-video-tip">
+                          <p class="hidden-md hidden-lg">LONCHERAS </p>
+                          <p class="hidden-md hidden-lg"> NUTRITIVAS</p>
+                          <p class="hidden-xs hidden-sm">LONCHERAS NUTRITIVAS</p>
+                        </div>
+                      </div>
+                      <img class="div-play" src="/assets/img/video-tip/play_azul.svg" alt="play-video">
+                    </a>
+                  </div>
+                </div>
+                <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip hidden-video animated fadeInRight">
+                  <div class="img-video-tip video-tip-1">
+                    <a class="link-video-tip" title="Click"  data-video="0" href="https://www.youtube.com/watch?v=84096kP8Hwc">
+                      <div class="contenedor-video-tip">
+                        <div class="title-video-tip">
+                          <p class="hidden-md hidden-lg">OPTIMIZA </p>
+                          <p class="hidden-md hidden-lg"> TUS ESPACIOS</p>
+                          <p class="hidden-xs hidden-sm">OPTIMIZA TUS ESPACIOS</p>
+                        </div>
+                      </div>
+                      <img class="div-play" src="/assets/img/video-tip/play_azul.svg" alt="play-video">
+                    </a>
+                  </div>
+                </div>
+                <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip hidden-video animated fadeInRight">
+                  <div class="img-video-tip video-tip-2">
+                    <a class="link-video-tip" title="Click"  data-video="1" href="https://youtu.be/DdfzjtEiyO0">
+                      <div class="contenedor-video-tip">
+                        <div class="title-video-tip">
+                          <p class="hidden-md hidden-lg">ORGANIZA TU </p>
+                          <p class="hidden-md hidden-lg">ESCRITORIO</p>
+                          <p class="hidden-xs hidden-sm">ORGANIZA TU ESCRITORIO</p>
+                        </div>
+                      </div>
+                      <img class="div-play" src="/assets/img/video-tip/play_azul.svg" alt="play-video">
+                    </a>
+                  </div>
+                </div>
+                <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip hidden-video animated fadeInRight">
+                  <div class="img-video-tip video-tip-3">
+                    <a class="link-video-tip" data-video="2" title="Click"  href="https://www.youtube.com/watch?v=FDFGSNfSSXM">
+                      <div class="contenedor-video-tip">
+                        <div class="title-video-tip">
+                          <p class="hidden-md hidden-lg">LONCHERAS </p>
+                          <p class="hidden-md hidden-lg"> NUTRITIVAS</p>
+                          <p class="hidden-xs hidden-sm">LONCHERAS NUTRITIVAS</p>
+                        </div>
+                      </div>
+                      <img class="div-play" src="/assets/img/video-tip/play_azul.svg" alt="play-video">
+                    </a>
+                  </div>
+                </div>
+                <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip hidden-video animated fadeInRight">
+                  <div class="img-video-tip video-tip-3">
+                    <a class="link-video-tip" data-video="2" title="Click"  href="https://www.youtube.com/watch?v=FDFGSNfSSXM">
+                      <div class="contenedor-video-tip">
+                        <div class="title-video-tip">
+                          <p class="hidden-md hidden-lg">LONCHERAS </p>
+                          <p class="hidden-md hidden-lg"> NUTRITIVAS</p>
+                          <p class="hidden-xs hidden-sm">LONCHERAS NUTRITIVAS</p>
+                        </div>
+                      </div>
+                      <img class="div-play" src="/assets/img/video-tip/play_azul.svg" alt="play-video">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div id="change-responsive" class="hidden-xs hidden-sm slider-nav">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip">
+                  <div class="img-video-tip video-tip-1">
+                    <a class="link-video-tip" title="Click"  data-video="0" href="">
+                      <div class="contenedor-video-tip">
+                        <div class="title-video-tip">
+                          <p class="hidden-md hidden-lg">OPTIMIZA </p>
+                          <p class="hidden-md hidden-lg"> TUS ESPACIOS</p>
+                          <p class="hidden-xs hidden-sm">OPTIMIZA TUS ESPACIOS</p>
+                        </div>
+                      </div>
+                      <img class="div-play" src="/assets/img/video-tip/play_blanco.svg" alt="play-video">
+                    </a>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip">
+                  <div class="img-video-tip video-tip-1">
+                    <a class="link-video-tip" title="Click"  data-video="0" href="">
+                      <div class="contenedor-video-tip">
+                        <div class="title-video-tip">
+                          <p class="hidden-md hidden-lg">OPTIMIZA </p>
+                          <p class="hidden-md hidden-lg"> TUS ESPACIOS</p>
+                          <p class="hidden-xs hidden-sm">OPTIMIZA TUS ESPACIOS</p>
+                        </div>
+                      </div>
+                      <img class="div-play" src="/assets/img/video-tip/play_blanco.svg" alt="play-video">
+                    </a>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip">
+                  <div class="img-video-tip video-tip-2">
+                    <a class="link-video-tip" title="Click"  data-video="1" href="javascript:void(0)">
+                      <div class="contenedor-video-tip">
+                        <div class="title-video-tip">
+                          <p class="hidden-md hidden-lg">ORGANIZA TU </p>
+                          <p class="hidden-md hidden-lg">ESCRITORIO</p>
+                          <p class="hidden-xs hidden-sm">ORGANIZA TU ESCRITORIO</p>
+                        </div>
+                      </div>
+                      <img class="div-play" src="/assets/img/video-tip/play_blanco.svg" alt="play-video">
+                    </a>
+                  </div>
+                </div>
+                <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip  ">
+                  <div class="img-video-tip video-tip-2">
+                    <a class="link-video-tip" title="Click"  data-video="1" href="javascript:void(0)">
+                      <div class="contenedor-video-tip">
+                        <div class="title-video-tip">
+                          <p class="hidden-md hidden-lg">ORGANIZA TU </p>
+                          <p class="hidden-md hidden-lg">ESCRITORIO</p>
+                          <p class="hidden-xs hidden-sm">ORGANIZA TU ESCRITORIO</p>
+                        </div>
+                      </div>
+                      <img class="div-play" src="/assets/img/video-tip/play_blanco.svg" alt="play-video">
+                    </a>
+                  </div>
+                </div>
+                <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip  ">
+                  <div class="img-video-tip video-tip-3">
+                    <a class="link-video-tip" data-video="2" title="Click"  href="">
+                      <div class="contenedor-video-tip">
+                        <div class="title-video-tip">
+                          <p class="hidden-md hidden-lg">LONCHERAS </p>
+                          <p class="hidden-md hidden-lg"> NUTRITIVAS</p>
+                          <p class="hidden-xs hidden-sm">LONCHERAS NUTRITIVAS</p>
+                        </div>
+                      </div>
+                      <img class="div-play" src="/assets/img/video-tip/play_blanco.svg" alt="play-video">
+                    </a>
+                  </div>
+                </div>
+                <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip  ">
+                  <div class="img-video-tip video-tip-3">
+                    <a class="link-video-tip" data-video="2" title="Click"  href="">
+                      <div class="contenedor-video-tip">
+                        <div class="title-video-tip">
+                          <p class="hidden-md hidden-lg">LONCHERAS </p>
+                          <p class="hidden-md hidden-lg"> NUTRITIVAS</p>
+                          <p class="hidden-xs hidden-sm">LONCHERAS NUTRITIVAS</p>
+                        </div>
+                      </div>
+                      <img class="div-play" src="/assets/img/video-tip/play_blanco.svg" alt="play-video">
+                    </a>
+                  </div>
+                </div>
+                <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip  ">
+                  <div class="img-video-tip video-tip-1">
+                    <a class="link-video-tip" title="Click"  data-video="0" href="">
+                      <div class="contenedor-video-tip">
+                        <div class="title-video-tip">
+                          <p class="hidden-md hidden-lg">OPTIMIZA </p>
+                          <p class="hidden-md hidden-lg"> TUS ESPACIOS</p>
+                          <p class="hidden-xs hidden-sm">OPTIMIZA TUS ESPACIOS</p>
+                        </div>
+                      </div>
+                      <img class="div-play" src="/assets/img/video-tip/play_blanco.svg" alt="play-video">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 text-center hidden-md">
+                  <div id="more" class="btn-more text-center">CARGAR MAS VIDEOS<span class="arrow arrow-video arrow-categoria glyphicon glyphicon-menu-down"></span></div>
+              </div>
+          </div>
+        </div>
+          <!-- fin css videos -->
+        </section>
+
+        <script src="/assets/jquery.min.js?v=1"></script>
+        <script src="/assets/js/owl.carousel.min.js?v=1"></script>
+            <script src="/assets/js/slick.js?v=1"></script>
+
+                    <script src="/assets/js/carrusel.js?v=1"></script>
+        <script src="/assets/js/app.js?v=1"></script>
 
         <!-- fin codigo landing Muebles -->
 
@@ -3321,7 +3784,7 @@ color: white !important;
             <label for="">
             Cambiar País<span class="country-icon peru"></span>
                     </label>
-                    <select class="select-chevronDown" name="country" id="selecciona-pais">
+            <select class="select-chevronDown" name="country" id="selecciona-pais">
             <option value="http://www.sodimac.com.pe/sodimac-pe">Per&uacute;</option>
                 <option value="http://www.sodimac.cl/sodimac-cl">Chile</option>
                 <option value="http://www.homecenter.com.co/homecenter-co">Colombia</option>
@@ -3330,130 +3793,129 @@ color: white !important;
                 <option value="http://www.sodimac.com.br/">Brasil</option>
                 <option value="http://www.sodimac.com/">Home Corporativo</option>
                 </select>
-                  </div>
-                  <div class="currency-prices hidden-xs hidden-sm">
-                    <label for="change-currency-select">Ver precios en otras monedas</label>
-                    <form id="saveCurrencyForm" action="/sodimac-pe/includes/currencySaveSuccess.jsp?_DARGS=/sodimac-pe/common/footer/currencyList.jsp.saveCurrencyForm" method="post"><input name="_dyncharset" value="iso-8859-1" type="hidden"></input><input value="-7500031557358064477" type="hidden"></input><input name="_D:currency" value=" " type="hidden"></input><select id="change-currency-select" name="currency"
-                        class="select-chevronDown"><option value="PEN" selected>SOL</option>
+          </div>
+          <div class="currency-prices hidden-xs hidden-sm">
+            <label for="change-currency-select">Ver precios en otras monedas</label>
+            <form id="saveCurrencyForm" action="/sodimac-pe/includes/currencySaveSuccess.jsp?_DARGS=/sodimac-pe/common/footer/currencyList.jsp.saveCurrencyForm" method="post"><input name="_dyncharset" value="iso-8859-1" type="hidden"></input><input value="-7500031557358064477" type="hidden"></input><input name="_D:currency" value=" " type="hidden"></input><select id="change-currency-select" name="currency" class="select-chevronDown"><option value="PEN" selected>SOL</option>
                         <option value="EUR" >Euro</option>
                         <option value="USD" >$US</option>
                         </select><input id="btnChangeCurrency" style="display:none" name="/falabella/commerce/pricing/StoreCurrencyFormhandler.save" type="submit"><input name="_D:/falabella/commerce/pricing/StoreCurrencyFormhandler.save" value=" " type="hidden">
-                      <input name="_DARGS" value="/sodimac-pe/common/footer/currencyList.jsp.saveCurrencyForm" type="hidden"></input>
-                    </form>
-                  </div>
-                  <div id="showCurrencyMessage" style="font-weight: bold; color: rgb(204, 0, 0);"></div>
-                  <!--show change currency success message -->
-                  <div id="showSuccess"></div>
-                  <!--remove success after use it-->
+              <input name="_DARGS" value="/sodimac-pe/common/footer/currencyList.jsp.saveCurrencyForm" type="hidden"></input>
+            </form>
+          </div>
+          <div id="showCurrencyMessage" style="font-weight: bold; color: rgb(204, 0, 0);"></div>
+          <!--show change currency success message -->
+          <div id="showSuccess"></div>
+          <!--remove success after use it-->
 
-                  <head>
-                    <meta charset="utf-8">
-                    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
-
-                  </head>
+          <head>
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 
-                  <div class="platform hidden-xs hidden-sm">
-                    <strong class="title">Encu&eacute;ntranos tambi&eacute;n en:</strong>
-                    <a href="https://itunes.apple.com/us/app/sodimac/id532353705?l=es&ls=1&mt=8" title="App Store" title="App Store"><i class="fa fa-apple"></i>App Store</a><br />
-                    <a href="https://play.google.com/store/apps/details?id=cl.sodimac" title="Google Play"><i class="fa fa-android"></i>Google Play</a>
-                  </div>
-                  <div class="socials-icons clearfix hidden-xs hidden-sm">
-                    <strong class="title">Redes sociales</strong>
-                    <a href="https://www.facebook.com/SodimacHomecenterPeru" target="_blank" title="Facebook" class="fa fa-facebook"></a>
-                    <a href="https://twitter.com/sodimacperu" title="Twitter" class="fa fa-twitter"></a>
-                    <a href="http://www.youtube.com/user/VideosSodimac" title="Youtube" class="fa fa-youtube"></a>
-                    <a href="https://www.pinterest.com/sodimacperu/" title="Pinterest" class="fa fa-pinterest"></a>
-                    <a href="https://www.instagram.com/sodimacperu/" title="Instagram" class="fa fa-instagram"></a>
+          </head>
 
-                  </div><br>
 
-                  <!--<div class="platform hidden-xs hidden-sm">
+          <div class="platform hidden-xs hidden-sm">
+            <strong class="title">Encu&eacute;ntranos tambi&eacute;n en:</strong>
+            <a href="https://itunes.apple.com/us/app/sodimac/id532353705?l=es&ls=1&mt=8" title="App Store" title="App Store"><i class="fa fa-apple"></i>App Store</a><br />
+            <a href="https://play.google.com/store/apps/details?id=cl.sodimac" title="Google Play"><i class="fa fa-android"></i>Google Play</a>
+          </div>
+          <div class="socials-icons clearfix hidden-xs hidden-sm">
+            <strong class="title">Redes sociales</strong>
+            <a href="https://www.facebook.com/SodimacHomecenterPeru" target="_blank" title="Facebook" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/sodimacperu" title="Twitter" class="fa fa-twitter"></a>
+            <a href="http://www.youtube.com/user/VideosSodimac" title="Youtube" class="fa fa-youtube"></a>
+            <a href="https://www.pinterest.com/sodimacperu/" title="Pinterest" class="fa fa-pinterest"></a>
+            <a href="https://www.instagram.com/sodimacperu/" title="Instagram" class="fa fa-instagram"></a>
+
+          </div><br>
+
+          <!--<div class="platform hidden-xs hidden-sm">
 <strong class="title">Encu&eacute;ntranos tambi&eacute;n en:</strong>
 <a href="#" title="Consulta comprobantes electr&oacute;nicos">Consulta comprobantes electr&oacute;nicos</a><br />
 <a href="#" title="Consulta comprobantes de percepci&oacute;n">Consulta comprobantes de percepci&oacute;n</a><br />
 <a href="#" title="Libro de reclamaciones">Libro de reclamaciones</a>
 </div>-->
 
-                  <div class="platform hidden-xs hidden-sm">
-                    <strong class="title">Tu opinión es importante</strong>
-                    <a href="https://survey.medallia.com/?hogar-pe&brand=Sodimac&country=Peru" title="Encuesta online" target="_blank" style="font-size: 12px;"><i class="fa fa-list-alt" style="
+          <div class="platform hidden-xs hidden-sm">
+            <strong class="title">Tu opinión es importante</strong>
+            <a href="https://survey.medallia.com/?hogar-pe&brand=Sodimac&country=Peru" title="Encuesta online" target="_blank" style="font-size: 12px;"><i class="fa fa-list-alt" style="
 font-size: 20px;"></i> Encuesta online </a>
-                    <a href="https://dte.falabella.com/dteportalfapr/publica.do?prm=IHaUGgjgtS3Gi1qBb2yYDokXKVtRO/HwqsCf4DtvTU/Xb1iLIt7U7A%3D%3D" title="Consulta comprobantes electrónicos" target="_blank" style="font-size: 12px; margin-top: -5px"><i class="fa fa-file" style="
+            <a href="https://dte.falabella.com/dteportalfapr/publica.do?prm=IHaUGgjgtS3Gi1qBb2yYDokXKVtRO/HwqsCf4DtvTU/Xb1iLIt7U7A%3D%3D" title="Consulta comprobantes electrónicos" target="_blank" style="font-size: 12px; margin-top: -5px"><i class="fa fa-file" style="
 font-size: 20px;" ></i> Consulta comprobante</a>
-                  </div>
+          </div>
 
 
-                  <div class="hidden-xs hidden-sm">
-                    <a href="https://www.sodimacperu.pe/Reclamaciones/reclamacioncliente/index" target="_blank" title="Libro de reclamaciones">
+          <div class="hidden-xs hidden-sm">
+            <a href="https://www.sodimacperu.pe/Reclamaciones/reclamacioncliente/index" target="_blank" title="Libro de reclamaciones">
     <img src="http://www.sodimac.com.pe/static/footer/images/img-libro-reclamaciones.jpg" class="img-responsive">
     </a>
-                  </div>
+          </div>
 
-                  <div class="cust-service clearfix hidden-xs hidden-sm">
-                    <ul>
-                      <!--
+          <div class="cust-service clearfix hidden-xs hidden-sm">
+            <ul>
+              <!--
     <li><a href="https://dte.falabella.com/dteportalfapr/publica.do?prm=IHaUGgjgtS3Gi1qBb2yYDokXKVtRO/HwqsCf4DtvTU/Xb1iLIt7U7A%3D%3D" class="fa fa-file fa-3x" target="_blank" title="comprobantes electrónicos"> Consulta comprobantes electr&oacute;nicos</a></li>-->
-                      <!--<img class="img_legales" src="/static/footer/images/icono_comprobantes_electronicos.png" width="35" height="30" alt="Consulta comprobantes electr&oacute;nicos"/>-->
-                      <!--style="margin-left:5px;"-->
-                      <!--<i class="fa fa-file fa-3x"></i>-->
-                      <!--<li><a href="https://percepciones.sodimac.com.pe/" class="fa fa-file fa-3x" target="_blank"> Consulta comprobantes de percepci&oacute;n</a></li>-->
-                      <!--<i class="fa fa-book fa-lg"></i>-->
-                      <!--<li><a href="https://www.sodimacperu.pe/Reclamaciones/reclamacioncliente/index" class="fa fa-book fa-3x" target="_blank" title="Libro de reclamaciones"> Libro de reclamaciones</a></li>-->
-                      <!--<img class="img_legales" src="/static/footer/images/icon_libro.png" width="45" height="20" alt="Libro de reclamaciones"/>-->
-                      <!--        <li><a href="https://survey.medallia.com/?hogar-pe&brand=Sodimac&country=Peru" class="fa fa-list-alt fa-3x" target="_blank"> <b>Encuesta online</b></a></li>-->
-                    </ul>
-                  </div>
+              <!--<img class="img_legales" src="/static/footer/images/icono_comprobantes_electronicos.png" width="35" height="30" alt="Consulta comprobantes electr&oacute;nicos"/>-->
+              <!--style="margin-left:5px;"-->
+              <!--<i class="fa fa-file fa-3x"></i>-->
+              <!--<li><a href="https://percepciones.sodimac.com.pe/" class="fa fa-file fa-3x" target="_blank"> Consulta comprobantes de percepci&oacute;n</a></li>-->
+              <!--<i class="fa fa-book fa-lg"></i>-->
+              <!--<li><a href="https://www.sodimacperu.pe/Reclamaciones/reclamacioncliente/index" class="fa fa-book fa-3x" target="_blank" title="Libro de reclamaciones"> Libro de reclamaciones</a></li>-->
+              <!--<img class="img_legales" src="/static/footer/images/icon_libro.png" width="45" height="20" alt="Libro de reclamaciones"/>-->
+              <!--        <li><a href="https://survey.medallia.com/?hogar-pe&brand=Sodimac&country=Peru" class="fa fa-list-alt fa-3x" target="_blank"> <b>Encuesta online</b></a></li>-->
+            </ul>
+          </div>
 
-                  <!-- <div class="cust-service hidden-xs hidden-sm">
+          <!-- <div class="cust-service hidden-xs hidden-sm">
 <strong class="title">Tu opinión es importante</strong>
 <a href="https://survey.medallia.com/?hogar-pe&brand=Sodimac&country=Peru" class="fa fa-list-alt fa-3x" target="_blank" title="Encuesta online"> Encuesta online</a>
 </div>-->
 
 
 
-                  <style>
-                    #header .action-box:before {
-                      background: 0 0;
-                      /*    border-left: 17px solid #fff;*/
-                      /*    border-bottom: 16px solid transparent;*/
-                      left: 0px;
-                      top: 0px;
-                      z-index: 11;
-                    }
+          <style>
+            #header .action-box:before {
+              background: 0 0;
+              /*    border-left: 17px solid #fff;*/
+              /*    border-bottom: 16px solid transparent;*/
+              left: 0px;
+              top: 0px;
+              z-index: 11;
+            }
 
-                    #header .action-box {
-                      border: none;
-                      height: 45px;
-                      vertical-align: middle;
-                      position: relative;
-                    }
+            #header .action-box {
+              border: none;
+              height: 45px;
+              vertical-align: middle;
+              position: relative;
+            }
 
-                    .user-acct .ua-logout a {
-                      font-weight: 700;
-                      color: #005dad;
-                      text-decoration: underline;
-                    }
+            .user-acct .ua-logout a {
+              font-weight: 700;
+              color: #005dad;
+              text-decoration: underline;
+            }
 
-                    .img_legales {
-                      width: auto!important;
-                    }
+            .img_legales {
+              width: auto!important;
+            }
 
-                    .titulo-mi-cuenta {
-                      margin-top: -38px;
-                      margin-left: 10px;
-                      margin-bottom: 45px;
-                      padding: 12px;
-                      background-color: #eee;
-                    }
+            .titulo-mi-cuenta {
+              margin-top: -38px;
+              margin-left: 10px;
+              margin-bottom: 45px;
+              padding: 12px;
+              background-color: #eee;
+            }
 
-                    .shadowoff {
-                      box-shadow: none!important;
-                      border: none!important;
-                    }
-                  </style>
-                  <!-- 	<script type="text/javascript">
+            .shadowoff {
+              box-shadow: none!important;
+              border: none!important;
+            }
+          </style>
+          <!-- 	<script type="text/javascript">
     $(document).ready(function(){
         console.log('arreglo footer 1');
         $(".coleccion-panel header").attr("data-toggle", "open");
@@ -3461,224 +3923,224 @@ font-size: 20px;" ></i> Consulta comprobante</a>
     });
 </script> -->
 
-                  <!-- 	<script type="text/javascript">
+          <!-- 	<script type="text/javascript">
     $(document).ready(function()
     {
     $("#mobilephone").attr('maxlength','9');
     });
 
 </script> -->
-                </div>
-                <!-- Lightning Bolt Begins -->
-                <script type="text/javascript" id="lightning_bolt" src="//cdn-akamai.mookie1.com/LB/LightningBolt.js"></script>
-                <!-- Lightning Bolt Ends -->
-
-
-                <div class="pull-left col-md-3 cust-service hidden-xs hidden-sm">
-                  <strong class="title">INFORMACI&Oacute;N PARA EL CLIENTE</strong>
-                  <ul>
-                    <li><a href="/sodimac-pe/content/a50043/terminos-condiciones" title="Términos y condiciones" target="_blank" title="Términos y condiciones">Términos y condiciones</a></li>
-                    <!--<li><a href="http://www.sodimac.com.pe/sodimac-pe/category/cat20169/Medios-de-pago">Medios de pago</a></li>-->
-                    <li><a href="/sodimac-pe/content/a50044/servicio-despacho" title="Servicio de despacho" target="_blank">Servicio de despacho</a></li>
-                    <li><a href="/sodimac-pe/content/a40021/Servicios-para-tu-hogar" title="Servicio Hogar" target="_blank">Servicios hogar</a></li>
-                    <li><a href="/sodimac-pe/content/a50058/post-venta" title="Post venta" target="_blank" title="Post venta">Post venta</a></li>
-                    <li><a href="/sodimac-pe/content/a50034/multiples-medios-de-pagos" title="Múltiples medios de pago" target="_blank">Múltiples medios de pago</a></li>
-
-                    <li><a href="/sodimac-pe/content/a50032/retiro-en-tienda" title="Retiro en tienda" target="_blank">Retiro en tienda</a></li>
-                    <li><a href="/sodimac-pe/content/a50033/compra-con-seguridad" title="Compra con seguridad" target="_blank">Compra con seguridad</a></li>
-                    <li><a href="/sodimac-pe/content/a50035/devolucion-gratis" title="Devoluciones gratis" target="_blank">Devoluciones gratis</a></li>
-                    <li><a href="/sodimac-pe/content/a990001/precios-bajos-garantizados" title="Precios Bajos Garantizados" target="_blank">Precios Bajos Garantizados</a></li>
-                    <!--<li><a href="/sodimac-pe/">Servicios</a></li>-->
-                    <!--		<li><a href="/sodimac-pe/content/a50062/centro-proyectos" title="Consejos para tu proyecto" target="_blank">Consejos para tu proyecto</a></li>
--->
-                    <li><a href="/sodimac-pe/content/a50045/contacto" title="Contáctanos" target="_blank">Contáctanos</a></li>
-                    <!--<li><a href="https://survey.medallia.com/?hogar-pe&brand=Sodimac&country=Peru">Encuesta on line</a></li>-->
-                    <li><a href="/sodimac-pe/content/a50046/servicio-tecnico" title="Servicio técnico" target="_blank">Servicio técnico</a></li>
-                    <li><a href="/sodimac-pe/content/a50047/preguntas-frecuentes" title="Preguntas frecuentes" target="_blank">Preguntas frecuentes</a></li>
-                    <!--<li><a href="http://www.sodimac.com.pe/sodimac-pe/sitemap" title="Mapa del sitio" target="_blank" >Mapa del sitio</a></li>-->
-                    <li><a href="/sodimac-pe/content/a50048/venta-telefonica" title="Venta telefónica" target="_blank">Venta telefónica</a></li>
-                    <li><a href="/sodimac-pe/content/a50049/politica-proteccion-datos" title="Protección de datos personales" target="_blank">Protección de datos personales</a></li>
-                    <!--        <li><a href="https://survey.medallia.com/?hogar-pe&brand=Sodimac&country=Peru" title="Encuesta online" target="_blank">Encuesta online</a></li>
--->
-                  </ul>
-                  <strong class="title">GESTI&Oacute;N DE CUENTA</strong>
-                  <ul>
-
-                    <li><a href="https://secure.sodimac.com.pe/sodimac-pe/myaccount/" title="Mi cuenta" target="_blank" title="Mi cuenta">Mi cuenta</a></li>
-                    <li><a href="https://secure.sodimac.com.pe/sodimac-pe/myaccount/register/personal" target="_blank" title="Regístrate">Reg&iacute;strate</a></li>
-                    <li><a href="https://secure.sodimac.com.pe/sodimac-pe/myaccount/profile" title="Actualizar datos" target="_blank">Actualizar datos</a></li>
-                    <li><a href="https://secure.sodimac.com.pe/sodimac-pe/myaccount/changepw" title="Cambio de clave" target="_blank">Cambio de clave</a></li>
-                    <li><a href="https://secure.sodimac.com.pe/sodimac-pe/myaccount/forgotpassword" title="Recordar Clave" target="_blank">Recordar clave</a></li>
-                    <li><a href="/sodimac-pe/myaccount/seekOrder" title="Seguimiento de tu compra" target="_blank">Seguimiento de tu compra</a></li>
-                  </ul>
-                </div>
-                <div class="pull-left col-md-3 cust-service hidden-xs hidden-sm">
-                  <strong class="title">MÁS SITIOS NUESTROS</strong>
-                  <ul>
-                    <li><a href="http://www.falabella.com.pe/falabella-pe/" target="_blank" title="Falabella">Falabella</a></li>
-                    <!--<li><a href="https://www.cmr.cl/">CMR Falabella</a></li>-->
-                    <li><a href="http://www.viajesfalabella.com.pe/home" target="_blank" title="Viajes Falabella">Viajes Falabella</a></li>
-                    <li><a href="http://www.tottus.com.pe/tottus-pe/" target="_blank" title="Supermercados Tottus">Supermercados Tottus</a></li>
-                    <li><a href="https://www.bancofalabella.pe/" target="_blank" title="Banco Falabella">Banco Falabella</a></li>
-                    <li><a href="http://www.segurosfalabellacorredores.com.pe/web/agenciadeseguros/home" target="_blank" title="Seguros Falabella">Seguros Falabella</a></li>
-                  </ul>
-                  <strong class="title">MÁS DE SODIMAC</strong>
-                  <ul>
-                    <li><a href="/sodimac-pe/content/a50057/Informacion-de-nuestra-empresa" title="Información de nuestra empresa" target="_blank">Información de nuestra empresa</a></li>
-                    <!--	<li><a href="http://www.sodimac.cl/static/site/nuestra-empresa/inversionistas.html">Inversionistas</a></li>-->
-
-                    <li><a href="/sodimac-pe/content/a50056/sodimac-peru" title="Sodimac Perú" target="_blank">Sodimac Perú</a></li>
-                    <li><a href="/sodimac-pe/content/a50055/nuestras-tiendas" title="Nuestras tiendas" target="_blank">Nuestras tiendas</a></li>
-                    <li><a href="/sodimac-pe/content/a50050/contacto-comercial" title="Contacto comercial" target="_blank">Contacto comercial</a></li>
-                    <li><a href="/sodimac-pe/content/a50054/trabaja-con-nosotros" title="Trabaja con nosotros" target="_blank">Trabaja con nosotros</a></li>
-                    <li><a href="http://responsabilidadsocialsodimac.pe/index.html" title="Responsabilidad social" target="_blank">Responsabilidad social</a></li>
-                    <li><a href="/sodimac-pe/content/a330031/Eticaaccion" title="Responsabilidad social" target="_blank">Eticacción</a></li>
-                    <li><a href="/sodimac-pe/content/a50051/venta-empresa" title="Venta Empresa" target="_blank">Venta Empresa</a></li>
-                    <li><a href="/sodimac-pe/content/a50052/venta-internet" title="Venta Internet" target="_blank">Venta Internet</a></li>
-                    <li><a href="/sodimac-pe/content/a260001/Cyber-Peru-Sodimac" title="CyberDays" target="_blank">CyberDays</a></li>
-                    <!--	<li><a href="http://www.sodimac.cl/sodimac-cl/static/staticContent1.jsp?active=0&id=cat270034&cid=ftrall1592">Solicitud de Cr&eacute;dito</a></li>-->
-                  </ul>
-                </div>
-                <div class="pull-left col-md-3 hidden-xs hidden-sm">
-
-                  <div class="tel">
-                    <strong class="title">VENTA TELEF&Oacute;NICA</strong>
-                    <!--    <strong class="title">&iquest;NECESITAS AYUDA?</strong>
--->
-                    <p class="t-info">
-                      <i class="fa fa-phone medium-icon call-me"></i> Ll&aacute;manos al
-                      <b>(01) 615 6002</b>
-                    </p>
-                    <p class="time">
-                      <strong>Opción 1</strong> Venta Telefónica<br>
-
-                      <strong>Opción 2</strong> Clientes del Programa Venta Empresas<br>
-
-                      <strong>Opción 3</strong> Instalación o armado de productos comprados en Sodimac<br>
-
-                      <br>
-                      <strong>HORARIO ATENCI&Oacute;N TELEF&Oacute;NICA</strong> Lunes a Sábado: 8:00 am a 10:00 pm<br> Domingo: 9:00 am a 10:00 pm<br>
-                      <br>
-                      <br>
-                    </p>
-                    <!--<a href="http://www.sodimac.cl/sodimac-cl/static/staticContent1.jsp?active=4&id=cat290002" title="Env&iacute;anos un correo"><i class="fa fa-envelope va-middle new-color"></i>Env&iacute;anos un correo</a><br />
-<a href="http://www.sodimac.cl/sodimac-cl/static/staticContent1.jsp?active=9&id=cat80045&cid=ftrall0242" title="Servicio al cliente"><i class="fa fa-check va-middle new-color"></i>Servicio al cliente</a>-->
-
-                    <strong class="title">SERVICIO AL CLIENTE</strong>
-                    <p class="t-info">
-                      <i class="fa fa-phone medium-icon call-me"></i> Ll&aacute;manos al
-                      <b>(01) 419 2000</b>
-                    </p>
-                    <p class="time">
-                      <strong>Opción 1</strong> Servicios de Armado e Instalación<br>
-                    </p>
-                  </div>
-                  <div id="email-box" class="email-box">
-                    <p>Entérate primero de todas nuestras ofertas</p>
-                    <form id="optInEmail" action="/sodimac-pe/common/ajax/optInEmailInfo.jsp?_DARGS=/sodimac-pe/cartridges/footerServicelinks.jsp.optInEmail" class="footer-subscribe-form" method="post"><input name="_dyncharset" value="iso-8859-1" type="hidden"></input><input value="-7500031557358064477" type="hidden"></input>
-                      <div class="inline-input-holder clearfix">
-                        <input id="textoMail" placeholder="Ingresa tu email" name="/falabella/catalog/formhandler/OptInEmailFormHandler.emailInput" value="" class="t-input input-email pull-left" type="email"><input name="_D:/falabella/catalog/formhandler/OptInEmailFormHandler.emailInput"
-                          value=" " type="hidden"><button class="btn btn-email pull-left" id="enviarMail" type="submit">
-                    <i class="fa fa-chevron-right"></i>
-                </button>
-                        <input id="btnChangeEmail" style="display:none;" name="/falabella/catalog/formhandler/OptInEmailFormHandler.saveEmail" type="submit"><input name="_D:/falabella/catalog/formhandler/OptInEmailFormHandler.saveEmail" value=" " type="hidden"></div>
-                      <input name="_DARGS" value="/sodimac-pe/cartridges/footerServicelinks.jsp.optInEmail" type="hidden"></input>
-                    </form>
-                  </div>
-                  <div id="respuestaMail" style="display:none;">
-                    Tu email ha sido recibido con éxito.</div>
-                </div>
-              </div>
-        </section>
+        </div>
         <!-- Lightning Bolt Begins -->
         <script type="text/javascript" id="lightning_bolt" src="//cdn-akamai.mookie1.com/LB/LightningBolt.js"></script>
         <!-- Lightning Bolt Ends -->
-        <style type="text/css">
-          .footer-mobile .m-service-info li>a .fa {
 
-            font-size: 24px;
-            color: #595a5a;
-            margin-bottom: 8px !important;
 
-          }
-        </style>
+        <div class="pull-left col-md-3 cust-service hidden-xs hidden-sm">
+          <strong class="title">INFORMACI&Oacute;N PARA EL CLIENTE</strong>
+          <ul>
+            <li><a href="/sodimac-pe/content/a50043/terminos-condiciones" title="Términos y condiciones" target="_blank" title="Términos y condiciones">Términos y condiciones</a></li>
+            <!--<li><a href="http://www.sodimac.com.pe/sodimac-pe/category/cat20169/Medios-de-pago">Medios de pago</a></li>-->
+            <li><a href="/sodimac-pe/content/a50044/servicio-despacho" title="Servicio de despacho" target="_blank">Servicio de despacho</a></li>
+            <li><a href="/sodimac-pe/content/a40021/Servicios-para-tu-hogar" title="Servicio Hogar" target="_blank">Servicios hogar</a></li>
+            <li><a href="/sodimac-pe/content/a50058/post-venta" title="Post venta" target="_blank" title="Post venta">Post venta</a></li>
+            <li><a href="/sodimac-pe/content/a50034/multiples-medios-de-pagos" title="Múltiples medios de pago" target="_blank">Múltiples medios de pago</a></li>
 
-        <section class="container">
-          <section class="footer-mobile hidden-md hidden-lg">
-            <ul class="row m-service-info">
-              <li class="col-md-6 col-xs-6 col-sm-6 clearfix">
-                <a href="http://www.sodimac.com.pe/sodimac-pe/cart/" title="Seguir mis Compras">
+            <li><a href="/sodimac-pe/content/a50032/retiro-en-tienda" title="Retiro en tienda" target="_blank">Retiro en tienda</a></li>
+            <li><a href="/sodimac-pe/content/a50033/compra-con-seguridad" title="Compra con seguridad" target="_blank">Compra con seguridad</a></li>
+            <li><a href="/sodimac-pe/content/a50035/devolucion-gratis" title="Devoluciones gratis" target="_blank">Devoluciones gratis</a></li>
+            <li><a href="/sodimac-pe/content/a990001/precios-bajos-garantizados" title="Precios Bajos Garantizados" target="_blank">Precios Bajos Garantizados</a></li>
+            <!--<li><a href="/sodimac-pe/">Servicios</a></li>-->
+            <!--		<li><a href="/sodimac-pe/content/a50062/centro-proyectos" title="Consejos para tu proyecto" target="_blank">Consejos para tu proyecto</a></li>
+-->
+            <li><a href="/sodimac-pe/content/a50045/contacto" title="Contáctanos" target="_blank">Contáctanos</a></li>
+            <!--<li><a href="https://survey.medallia.com/?hogar-pe&brand=Sodimac&country=Peru">Encuesta on line</a></li>-->
+            <li><a href="/sodimac-pe/content/a50046/servicio-tecnico" title="Servicio técnico" target="_blank">Servicio técnico</a></li>
+            <li><a href="/sodimac-pe/content/a50047/preguntas-frecuentes" title="Preguntas frecuentes" target="_blank">Preguntas frecuentes</a></li>
+            <!--<li><a href="http://www.sodimac.com.pe/sodimac-pe/sitemap" title="Mapa del sitio" target="_blank" >Mapa del sitio</a></li>-->
+            <li><a href="/sodimac-pe/content/a50048/venta-telefonica" title="Venta telefónica" target="_blank">Venta telefónica</a></li>
+            <li><a href="/sodimac-pe/content/a50049/politica-proteccion-datos" title="Protección de datos personales" target="_blank">Protección de datos personales</a></li>
+            <!--        <li><a href="https://survey.medallia.com/?hogar-pe&brand=Sodimac&country=Peru" title="Encuesta online" target="_blank">Encuesta online</a></li>
+-->
+          </ul>
+          <strong class="title">GESTI&Oacute;N DE CUENTA</strong>
+          <ul>
+
+            <li><a href="https://secure.sodimac.com.pe/sodimac-pe/myaccount/" title="Mi cuenta" target="_blank" title="Mi cuenta">Mi cuenta</a></li>
+            <li><a href="https://secure.sodimac.com.pe/sodimac-pe/myaccount/register/personal" target="_blank" title="Regístrate">Reg&iacute;strate</a></li>
+            <li><a href="https://secure.sodimac.com.pe/sodimac-pe/myaccount/profile" title="Actualizar datos" target="_blank">Actualizar datos</a></li>
+            <li><a href="https://secure.sodimac.com.pe/sodimac-pe/myaccount/changepw" title="Cambio de clave" target="_blank">Cambio de clave</a></li>
+            <li><a href="https://secure.sodimac.com.pe/sodimac-pe/myaccount/forgotpassword" title="Recordar Clave" target="_blank">Recordar clave</a></li>
+            <li><a href="/sodimac-pe/myaccount/seekOrder" title="Seguimiento de tu compra" target="_blank">Seguimiento de tu compra</a></li>
+          </ul>
+        </div>
+        <div class="pull-left col-md-3 cust-service hidden-xs hidden-sm">
+          <strong class="title">MÁS SITIOS NUESTROS</strong>
+          <ul>
+            <li><a href="http://www.falabella.com.pe/falabella-pe/" target="_blank" title="Falabella">Falabella</a></li>
+            <!--<li><a href="https://www.cmr.cl/">CMR Falabella</a></li>-->
+            <li><a href="http://www.viajesfalabella.com.pe/home" target="_blank" title="Viajes Falabella">Viajes Falabella</a></li>
+            <li><a href="http://www.tottus.com.pe/tottus-pe/" target="_blank" title="Supermercados Tottus">Supermercados Tottus</a></li>
+            <li><a href="https://www.bancofalabella.pe/" target="_blank" title="Banco Falabella">Banco Falabella</a></li>
+            <li><a href="http://www.segurosfalabellacorredores.com.pe/web/agenciadeseguros/home" target="_blank" title="Seguros Falabella">Seguros Falabella</a></li>
+          </ul>
+          <strong class="title">MÁS DE SODIMAC</strong>
+          <ul>
+            <li><a href="/sodimac-pe/content/a50057/Informacion-de-nuestra-empresa" title="Información de nuestra empresa" target="_blank">Información de nuestra empresa</a></li>
+            <!--	<li><a href="http://www.sodimac.cl/static/site/nuestra-empresa/inversionistas.html">Inversionistas</a></li>-->
+
+            <li><a href="/sodimac-pe/content/a50056/sodimac-peru" title="Sodimac Perú" target="_blank">Sodimac Perú</a></li>
+            <li><a href="/sodimac-pe/content/a50055/nuestras-tiendas" title="Nuestras tiendas" target="_blank">Nuestras tiendas</a></li>
+            <li><a href="/sodimac-pe/content/a50050/contacto-comercial" title="Contacto comercial" target="_blank">Contacto comercial</a></li>
+            <li><a href="/sodimac-pe/content/a50054/trabaja-con-nosotros" title="Trabaja con nosotros" target="_blank">Trabaja con nosotros</a></li>
+            <li><a href="http://responsabilidadsocialsodimac.pe/index.html" title="Responsabilidad social" target="_blank">Responsabilidad social</a></li>
+            <li><a href="/sodimac-pe/content/a330031/Eticaaccion" title="Responsabilidad social" target="_blank">Eticacción</a></li>
+            <li><a href="/sodimac-pe/content/a50051/venta-empresa" title="Venta Empresa" target="_blank">Venta Empresa</a></li>
+            <li><a href="/sodimac-pe/content/a50052/venta-internet" title="Venta Internet" target="_blank">Venta Internet</a></li>
+            <li><a href="/sodimac-pe/content/a260001/Cyber-Peru-Sodimac" title="CyberDays" target="_blank">CyberDays</a></li>
+            <!--	<li><a href="http://www.sodimac.cl/sodimac-cl/static/staticContent1.jsp?active=0&id=cat270034&cid=ftrall1592">Solicitud de Cr&eacute;dito</a></li>-->
+          </ul>
+        </div>
+        <div class="pull-left col-md-3 hidden-xs hidden-sm">
+
+          <div class="tel">
+            <strong class="title">VENTA TELEF&Oacute;NICA</strong>
+            <!--    <strong class="title">&iquest;NECESITAS AYUDA?</strong>
+-->
+            <p class="t-info">
+              <i class="fa fa-phone medium-icon call-me"></i> Ll&aacute;manos al
+              <b>(01) 615 6002</b>
+            </p>
+            <p class="time">
+              <strong>Opción 1</strong> Venta Telefónica<br>
+
+              <strong>Opción 2</strong> Clientes del Programa Venta Empresas<br>
+
+              <strong>Opción 3</strong> Instalación o armado de productos comprados en Sodimac<br>
+
+              <br>
+              <strong>HORARIO ATENCI&Oacute;N TELEF&Oacute;NICA</strong> Lunes a Sábado: 8:00 am a 10:00 pm<br> Domingo: 9:00 am a 10:00 pm<br>
+              <br>
+              <br>
+            </p>
+            <!--<a href="http://www.sodimac.cl/sodimac-cl/static/staticContent1.jsp?active=4&id=cat290002" title="Env&iacute;anos un correo"><i class="fa fa-envelope va-middle new-color"></i>Env&iacute;anos un correo</a><br />
+<a href="http://www.sodimac.cl/sodimac-cl/static/staticContent1.jsp?active=9&id=cat80045&cid=ftrall0242" title="Servicio al cliente"><i class="fa fa-check va-middle new-color"></i>Servicio al cliente</a>-->
+
+            <strong class="title">SERVICIO AL CLIENTE</strong>
+            <p class="t-info">
+              <i class="fa fa-phone medium-icon call-me"></i> Ll&aacute;manos al
+              <b>(01) 419 2000</b>
+            </p>
+            <p class="time">
+              <strong>Opción 1</strong> Servicios de Armado e Instalación<br>
+            </p>
+          </div>
+          <div id="email-box" class="email-box">
+            <p>Entérate primero de todas nuestras ofertas</p>
+            <form id="optInEmail" action="/sodimac-pe/common/ajax/optInEmailInfo.jsp?_DARGS=/sodimac-pe/cartridges/footerServicelinks.jsp.optInEmail" class="footer-subscribe-form" method="post"><input name="_dyncharset" value="iso-8859-1" type="hidden"></input><input value="-7500031557358064477" type="hidden"></input>
+              <div class="inline-input-holder clearfix">
+                <input id="textoMail" placeholder="Ingresa tu email" name="/falabella/catalog/formhandler/OptInEmailFormHandler.emailInput" value="" class="t-input input-email pull-left" type="email"><input name="_D:/falabella/catalog/formhandler/OptInEmailFormHandler.emailInput"
+                  value=" " type="hidden"><button class="btn btn-email pull-left" id="enviarMail" type="submit">
+                    <i class="fa fa-chevron-right"></i>
+                </button>
+                <input id="btnChangeEmail" style="display:none;" name="/falabella/catalog/formhandler/OptInEmailFormHandler.saveEmail" type="submit"><input name="_D:/falabella/catalog/formhandler/OptInEmailFormHandler.saveEmail" value=" " type="hidden"></div>
+              <input name="_DARGS" value="/sodimac-pe/cartridges/footerServicelinks.jsp.optInEmail" type="hidden"></input>
+            </form>
+          </div>
+          <div id="respuestaMail" style="display:none;">
+            Tu email ha sido recibido con éxito.</div>
+        </div>
+      </div>
+    </section>
+    <!-- Lightning Bolt Begins -->
+    <script type="text/javascript" id="lightning_bolt" src="//cdn-akamai.mookie1.com/LB/LightningBolt.js"></script>
+    <!-- Lightning Bolt Ends -->
+    <style type="text/css">
+      .footer-mobile .m-service-info li>a .fa {
+
+        font-size: 24px;
+        color: #595a5a;
+        margin-bottom: 8px !important;
+
+      }
+    </style>
+
+    <section class="container">
+      <section class="footer-mobile hidden-md hidden-lg">
+        <ul class="row m-service-info">
+          <li class="col-md-6 col-xs-6 col-sm-6 clearfix">
+            <a href="http://www.sodimac.com.pe/sodimac-pe/cart/" title="Seguir mis Compras">
                 <span class="fa fa-truck"></span>
                 <span>Seguir mis Compras</span>
             </a>
-              </li>
-              <li class="col-md-6 col-xs-6 col-sm-6 clearfix">
-                <a href="/sodimac-pe/myaccount/" title="Mi Cuenta">
+          </li>
+          <li class="col-md-6 col-xs-6 col-sm-6 clearfix">
+            <a href="/sodimac-pe/myaccount/" title="Mi Cuenta">
                 <span class="fa fa-user"></span>
                 <span id="loginState">Mi Cuenta</span>
                 <span id="logoutState">Inicia Sesión</span>
             </a>
-              </li>
-              <li class="col-md-6 col-xs-6 col-sm-6 clearfix">
-                <a href="/sodimac-pe/content/a50048/venta-telefonica" title="Servicio al Cliente">
+          </li>
+          <li class="col-md-6 col-xs-6 col-sm-6 clearfix">
+            <a href="/sodimac-pe/content/a50048/venta-telefonica" title="Servicio al Cliente">
                 <span class="fa fa-users"></span>
                 <span>Servicio al Cliente</span>
             </a>
-              </li>
-              <li class="col-md-6 col-xs-6 col-sm-6 clearfix">
-                <a href="https://survey.medallia.com/?hogar-pe&brand=Sodimac&country=Peru" title="Encuesta Online">
+          </li>
+          <li class="col-md-6 col-xs-6 col-sm-6 clearfix">
+            <a href="https://survey.medallia.com/?hogar-pe&brand=Sodimac&country=Peru" title="Encuesta Online">
                 <span class="fa fa-plus-square"></span>
                 <span>Encuesta Online</span>
             </a>
-              </li>
-              <!--         <li class="col-md-6 col-xs-6 col-sm-6 clearfix">
+          </li>
+          <!--         <li class="col-md-6 col-xs-6 col-sm-6 clearfix">
             <a href="javascript:;">
                 <span class="fa fa-plus-square"></span>
                 <span>Más de Sodimac</span>
             </a>
         </li>-->
-              <li id="footer_logout" class="col-md-12 col-xs-12 col-sm-12 hidden">
-                <a href="javascript:myaccount.logout({'isCSR':'false'});" title="Cerrar Sesión">
+          <li id="footer_logout" class="col-md-12 col-xs-12 col-sm-12 hidden">
+            <a href="javascript:myaccount.logout({'isCSR':'false'});" title="Cerrar Sesión">
                 <span class="fa fa-user"></span>
                 <span>Cerrar Sesión</span>
             </a>
-              </li>
-            </ul>
-            <!-- footer mobile -->
-            <div class="m-tel">
-              <strong class="title">VENTA TELEFÓNICA</strong>
-              <a href="tel:01615 6002" title="VENTA TELEFÓNICA" style="padding:0px;">
+          </li>
+        </ul>
+        <!-- footer mobile -->
+        <div class="m-tel">
+          <strong class="title">VENTA TELEFÓNICA</strong>
+          <a href="tel:01615 6002" title="VENTA TELEFÓNICA" style="padding:0px;">
             <i class="fa fa-phone"></i>
             <b>(01) 615 6002</b>
             <span>Toca el número y llama</span>
         </a>
-            </div>
+        </div>
 
-            <div class="m-tel">
-              <strong class="title">¿NECESITAS SERVICIO DE ARMADO O INSTALACIÓN?</strong>
-              <a href="tel:01419 2000" title="¿NECESITAS SERVICIO DE ARMADO O INSTALACIÓN?" style="padding:0px;">
+        <div class="m-tel">
+          <strong class="title">¿NECESITAS SERVICIO DE ARMADO O INSTALACIÓN?</strong>
+          <a href="tel:01419 2000" title="¿NECESITAS SERVICIO DE ARMADO O INSTALACIÓN?" style="padding:0px;">
             <i class="fa fa-phone"></i>
             <b>(01) 419 2000</b>
             <span style="width:auto;"><strong style="font-size:15px; margin-top: -11px;">Opción 1</strong>Toca el número y llama</span>
         </a>
-            </div>
+        </div>
 
-            <div class="m-socials-icons">
-              <a href="https://www.facebook.com/SodimacHomecenterPeru" title="Facebook" class="fa fa-facebook"></a>
-              <a href="https://twitter.com/sodimacperu" title="Twitter" class="fa fa-twitter"></a>
-              <a href="https://www.youtube.com/user/VideosSodimac" title="Youtube" class="fa fa-youtube"></a>
-              <a href="https://www.pinterest.com/sodimacperu/" title="Pinterest" class="fa fa-pinterest"></a>
-              <a href="https://www.instagram.com/sodimacperu/" title="Instagram" class="fa fa-instagram"></a>
-            </div>
-            <p>
-              <a href="/sodimac-pe/content/a50043/terminos-condiciones" title="Términos de uso" rel="help">Términos de uso</a>
-              <span>|</span>
-              <a href="/sodimac-pe/content/a50057/Informaci%C3%B3n%20de%20nuestra%20empresa" title="Nuestra Empresa" rel="help">Nuestra Empresa</a>
-            </p>
-            <p style="margin-bottom: 30px;"><b>Sodimac S.A.</b> - Todos los derechos reservados</p>
-          </section>
-        </section>
-        <!--
+        <div class="m-socials-icons">
+          <a href="https://www.facebook.com/SodimacHomecenterPeru" title="Facebook" class="fa fa-facebook"></a>
+          <a href="https://twitter.com/sodimacperu" title="Twitter" class="fa fa-twitter"></a>
+          <a href="https://www.youtube.com/user/VideosSodimac" title="Youtube" class="fa fa-youtube"></a>
+          <a href="https://www.pinterest.com/sodimacperu/" title="Pinterest" class="fa fa-pinterest"></a>
+          <a href="https://www.instagram.com/sodimacperu/" title="Instagram" class="fa fa-instagram"></a>
+        </div>
+        <p>
+          <a href="/sodimac-pe/content/a50043/terminos-condiciones" title="Términos de uso" rel="help">Términos de uso</a>
+          <span>|</span>
+          <a href="/sodimac-pe/content/a50057/Informaci%C3%B3n%20de%20nuestra%20empresa" title="Nuestra Empresa" rel="help">Nuestra Empresa</a>
+        </p>
+        <p style="margin-bottom: 30px;"><b>Sodimac S.A.</b> - Todos los derechos reservados</p>
+      </section>
+    </section>
+    <!--
 <script>
 /*$(".breadcrumb").hide();
 $(".container").removeClass("hidden-xs");
@@ -3691,181 +4153,181 @@ $('.panel-body .table > tbody').prepend(trCyber);
  console.log("Link mobile Cyber Days")
 </script>-->
 
-        <script type="text/javascript">
-          var trCyber = "<tr><td style='border:transparent'><a class= 'padding-align2' href='http://www.sodimac.com.pe/sodimac-pe/CMR/N-1z141ek'>Imbatibles CMR</a></td> </tr>"
-          $('.panel-body').css("height", "48vh");
-          $('.panel-body .table > tbody').prepend(trCyber);
-          console.log("Link mobile Imbatibles")
+    <script type="text/javascript">
+      var trCyber = "<tr><td style='border:transparent'><a class= 'padding-align2' href='http://www.sodimac.com.pe/sodimac-pe/CMR/N-1z141ek'>Imbatibles CMR</a></td> </tr>"
+      $('.panel-body').css("height", "48vh");
+      $('.panel-body .table > tbody').prepend(trCyber);
+      console.log("Link mobile Imbatibles")
 
 
 
-          var trCyber = "<tr><td style='border:transparent'><a class= 'padding-align2' href='http://www.sodimac.com.pe/sodimac-pe/category/cat2969003/Dias-de-la-casa'>Dìas de la casa</a></td> </tr>"
-          $('.panel-body').css("height", "48vh");
-          $('.panel-body .table > tbody').prepend(trCyber);
-          console.log("Link mobile Dìas de la casa")
-        </script>
+      var trCyber = "<tr><td style='border:transparent'><a class= 'padding-align2' href='http://www.sodimac.com.pe/sodimac-pe/category/cat2969003/Dias-de-la-casa'>Dìas de la casa</a></td> </tr>"
+      $('.panel-body').css("height", "48vh");
+      $('.panel-body .table > tbody').prepend(trCyber);
+      console.log("Link mobile Dìas de la casa")
+    </script>
 
 
-        <script type="text/javascript">
-          console.log("OK!");
-          $(".mobile-navbar .table tbody>tr:last-child").after("<tr><td><a href='/sodimac-pe/content/a40021/Servicios-para-tu-Hogar' target='_self' title='Servicios Hogar'>Servicios Hogar</a></td></tr>");
+    <script type="text/javascript">
+      console.log("OK!");
+      $(".mobile-navbar .table tbody>tr:last-child").after("<tr><td><a href='/sodimac-pe/content/a40021/Servicios-para-tu-Hogar' target='_self' title='Servicios Hogar'>Servicios Hogar</a></td></tr>");
 
-          $(".mobile-navbar .table tbody>tr:last-child").after("<tr><td><a href='/sodimac-pe/content/a1300001/Centro-de-proyectos' target='_self' title='Servicios Hogar'>Centro de Proyectos</a></td></tr>");
+      $(".mobile-navbar .table tbody>tr:last-child").after("<tr><td><a href='/sodimac-pe/content/a1300001/Centro-de-proyectos' target='_self' title='Servicios Hogar'>Centro de Proyectos</a></td></tr>");
 
-          $(".mobile-navbar .table tbody>tr:last-child").after("<tr><td><a href='http://www.sodimac.com.pe/sodimac-pe/content/a90008/Informacion-General' target='_self' title='Alquiler de Herramientas' >Alquiler de Herramientas</a></td></tr>");
+      $(".mobile-navbar .table tbody>tr:last-child").after("<tr><td><a href='http://www.sodimac.com.pe/sodimac-pe/content/a90008/Informacion-General' target='_self' title='Alquiler de Herramientas' >Alquiler de Herramientas</a></td></tr>");
 
-          // $('.categoryDropdown1 > ul.sub-nav.jq-subNav:last-child').append("<li><a href='/sodimac-pe/content/a40021/Servicios-para-tu-hogar' target='_self' title='Servicios Hogar' style='border-top: 2px solid #eee; padding-top: 7px; '>Servicios hogar</a></li>");
+      // $('.categoryDropdown1 > ul.sub-nav.jq-subNav:last-child').append("<li><a href='/sodimac-pe/content/a40021/Servicios-para-tu-hogar' target='_self' title='Servicios Hogar' style='border-top: 2px solid #eee; padding-top: 7px; '>Servicios hogar</a></li>");
 
-          // $('.categoryDropdown1 > ul.sub-nav.jq-subNav:last-child').append("<li><a href='http://www.sodimac.com.pe/sodimac-pe/content/a90008/Informacion-General' target='_self' title='Alquiler de Herramientas' >Alquiler de herramientas</a></li>");
-        </script>
-        </footer>
-        <script language="JavaScript">
-          var digitalData = {
-            "login": {
-              "clienteID": "561220201",
-              "rutHash": "CB9CE1DE3CD6C14DF494150A5A8045F508E22AD166F2D497C7972BDA6BD45543",
-              "emailHash": "D71AA366DEE75A5BA536768DF825444D2A101ADF5A634D0575BEC112911C059E",
-              "edad": "35",
-              "genero": "male",
-              "tipo": "person",
-              "loginLocation": "content"
-            },
-            "page": {
-              "pageName": "Content: Contenido, asesoría e inspiración: Landings: Nuestra_tienda",
-              "url": "http://www.sodimac.com.pe/sodimac-pe/content/a1380010/",
-              "loginStatus": "falabella semilogged in",
-              "canal": "internet",
-              "siteSection": "Contenido, asesoría e inspiración",
-              "subSection": "Landings",
-              "subSection2": "Nuestra_tienda",
-              "pageType": "content",
-              "serverName": "prod-st12:10150",
-              "sessionId": "1K0UAr21YEkxdDW9gEcZy8nD.node1"
-            },
-            "events": "event13",
-            "ecom": {
-              "productList": [],
-              "shippingCost": 0.0
-            },
-            "search": {},
-            "error": {},
-            "server": {
-              "name": "prod-st12:10150"
-            },
-            "webservice": {
-              "time": {
-                "crea": 0.0,
-                "anula": 0.0,
-                "entrega": 0.0,
-                "retiro": 0.0
-              }
+      // $('.categoryDropdown1 > ul.sub-nav.jq-subNav:last-child').append("<li><a href='http://www.sodimac.com.pe/sodimac-pe/content/a90008/Informacion-General' target='_self' title='Alquiler de Herramientas' >Alquiler de herramientas</a></li>");
+    </script>
+  </footer>
+  <script language="JavaScript">
+    var digitalData = {
+      "login": {
+        "clienteID": "561220201",
+        "rutHash": "CB9CE1DE3CD6C14DF494150A5A8045F508E22AD166F2D497C7972BDA6BD45543",
+        "emailHash": "D71AA366DEE75A5BA536768DF825444D2A101ADF5A634D0575BEC112911C059E",
+        "edad": "35",
+        "genero": "male",
+        "tipo": "person",
+        "loginLocation": "content"
+      },
+      "page": {
+        "pageName": "Content: Contenido, asesoría e inspiración: Landings: Nuestra_tienda",
+        "url": "http://www.sodimac.com.pe/sodimac-pe/content/a1380010/",
+        "loginStatus": "falabella semilogged in",
+        "canal": "internet",
+        "siteSection": "Contenido, asesoría e inspiración",
+        "subSection": "Landings",
+        "subSection2": "Nuestra_tienda",
+        "pageType": "content",
+        "serverName": "prod-st12:10150",
+        "sessionId": "1K0UAr21YEkxdDW9gEcZy8nD.node1"
+      },
+      "events": "event13",
+      "ecom": {
+        "productList": [],
+        "shippingCost": 0.0
+      },
+      "search": {},
+      "error": {},
+      "server": {
+        "name": "prod-st12:10150"
+      },
+      "webservice": {
+        "time": {
+          "crea": 0.0,
+          "anula": 0.0,
+          "entrega": 0.0,
+          "retiro": 0.0
+        }
+      }
+    };
+  </script>
+  <!--  ServerName: prod-st12:10150 -->
+  <script src="//connect.facebook.net/es_LA/all.js"></script>
+  <input name="ctxInput" id="ctxInput" value="/sodimac-pe" type="hidden" />
+  <input name="googleAccountId" id="googleAccountId" value="UA-43870996-1" type="hidden" />
+  <input id="month_1" value="Ene" type="hidden" />
+  <input id="month_2" value="Feb" type="hidden" />
+  <input id="month_3" value="Mar" type="hidden" />
+  <input id="month_4" value="Abr" type="hidden" />
+  <input id="month_5" value="May" type="hidden" />
+  <input id="month_6" value="Jun" type="hidden" />
+  <input id="month_7" value="Jul" type="hidden" />
+  <input id="month_8" value="Ago" type="hidden" />
+  <input id="month_9" value="Sep" type="hidden" />
+  <input id="month_10" value="Oct" type="hidden" />
+  <input id="month_11" value="Nov" type="hidden" />
+  <input id="month_12" value="Dic" type="hidden" />
+  <script language="JavaScript" type="text/javascript">
+    var useCookieForHeader = false;
+    var context = "/sodimac-pe";
+  </script>
+
+  <script type="text/javascript">
+    function ajaxCallForNameQuantityAndStore() {
+      $.ajax({
+        async: true,
+        type: "POST",
+        url: context + "/common/includes/ajaxCallForNameQuantityAndStore.jsp",
+        success: function(data) {
+          if (data != null && data != "") {
+            var dataContent = $(data);
+            var headerUserContent = dataContent.find(".headerNameSection").html();
+            $(".headerNameSection").html(headerUserContent);
+            var quantity = dataContent.find("#number").html();
+            if (quantity >= 0) {
+              $(".number").html(quantity);
             }
-          };
-        </script>
-        <!--  ServerName: prod-st12:10150 -->
-        <script src="//connect.facebook.net/es_LA/all.js"></script>
-        <input name="ctxInput" id="ctxInput" value="/sodimac-pe" type="hidden" />
-        <input name="googleAccountId" id="googleAccountId" value="UA-43870996-1" type="hidden" />
-        <input id="month_1" value="Ene" type="hidden" />
-        <input id="month_2" value="Feb" type="hidden" />
-        <input id="month_3" value="Mar" type="hidden" />
-        <input id="month_4" value="Abr" type="hidden" />
-        <input id="month_5" value="May" type="hidden" />
-        <input id="month_6" value="Jun" type="hidden" />
-        <input id="month_7" value="Jul" type="hidden" />
-        <input id="month_8" value="Ago" type="hidden" />
-        <input id="month_9" value="Sep" type="hidden" />
-        <input id="month_10" value="Oct" type="hidden" />
-        <input id="month_11" value="Nov" type="hidden" />
-        <input id="month_12" value="Dic" type="hidden" />
-        <script language="JavaScript" type="text/javascript">
-          var useCookieForHeader = false;
-          var context = "/sodimac-pe";
-        </script>
+            var storeName = dataContent.find("#storeName").html();
+            if (storeName.length >= 0) {
+              storeName = storeName.replace(/\+/g, '%20');
+              storeName = decodeURIComponent(storeName);
+              $("#mostrar-header > a ").find("b").html(storeName);
+              $("#mostrar-header > a ").find("span").html(storeName);
+              $(".jq-chevronDown option:selected").text(storeName);
+            }
+          }
+        }
+      });
+    }
 
-        <script type="text/javascript">
-          function ajaxCallForNameQuantityAndStore() {
-            $.ajax({
-              async: true,
-              type: "POST",
-              url: context + "/common/includes/ajaxCallForNameQuantityAndStore.jsp",
-              success: function(data) {
-                if (data != null && data != "") {
-                  var dataContent = $(data);
-                  var headerUserContent = dataContent.find(".headerNameSection").html();
-                  $(".headerNameSection").html(headerUserContent);
-                  var quantity = dataContent.find("#number").html();
-                  if (quantity >= 0) {
-                    $(".number").html(quantity);
-                  }
-                  var storeName = dataContent.find("#storeName").html();
-                  if (storeName.length >= 0) {
-                    storeName = storeName.replace(/\+/g, '%20');
-                    storeName = decodeURIComponent(storeName);
-                    $("#mostrar-header > a ").find("b").html(storeName);
-                    $("#mostrar-header > a ").find("span").html(storeName);
-                    $(".jq-chevronDown option:selected").text(storeName);
-                  }
-                }
-              }
-            });
+
+    $(function() {
+      if (!(typeof useCookieForHeader == "undefined") && useCookieForHeader) {
+        //fetch data from another cookie
+        var flagForStoreCookie = false;
+        var flagForNameCookie = false;
+        var documentCookies = document.cookie.split("; ");
+        ajaxCallForNameQuantityAndStore();
+        for (var i = 0, l = documentCookies.length; i < l; i++) {
+          var parts = documentCookies[i].split("=");
+          if ("DYNAMIC_DATA_COOKIE" == parts[0]) {
+            var dynamicDataCookieValue = parts[1].split("*");
+            var quantity = dynamicDataCookieValue[1];
+            if (quantity >= 0) {
+              $(".number").html(quantity);
+            }
+            flagForNameCookie = true;
+            if (flagForStoreCookie) {
+              break;
+            }
+          }
+          if ("CACHE_KEY" == parts[0]) {
+            var storeName = parts[1];
+            if (storeName.length >= 0) {
+              storeName = storeName.replace(/\+/g, '%20');
+              storeName = decodeURIComponent(storeName);
+              $("#mostrar-header > a ").find("b").html(storeName);
+              $("#mostrar-header > a ").find("span").html(storeName);
+              $(".jq-chevronDown option:selected").text(storeName);
+            }
+            if (flagForNameCookie) {
+              break;
+            }
+            flagForStoreCookie = true;
+          } else {
+            if (flagForNameCookie) {
+              break;
+            }
+            flagForStoreCookie = true;
           }
 
+        }
 
-          $(function() {
-            if (!(typeof useCookieForHeader == "undefined") && useCookieForHeader) {
-              //fetch data from another cookie
-              var flagForStoreCookie = false;
-              var flagForNameCookie = false;
-              var documentCookies = document.cookie.split("; ");
-              ajaxCallForNameQuantityAndStore();
-              for (var i = 0, l = documentCookies.length; i < l; i++) {
-                var parts = documentCookies[i].split("=");
-                if ("DYNAMIC_DATA_COOKIE" == parts[0]) {
-                  var dynamicDataCookieValue = parts[1].split("*");
-                  var quantity = dynamicDataCookieValue[1];
-                  if (quantity >= 0) {
-                    $(".number").html(quantity);
-                  }
-                  flagForNameCookie = true;
-                  if (flagForStoreCookie) {
-                    break;
-                  }
-                }
-                if ("CACHE_KEY" == parts[0]) {
-                  var storeName = parts[1];
-                  if (storeName.length >= 0) {
-                    storeName = storeName.replace(/\+/g, '%20');
-                    storeName = decodeURIComponent(storeName);
-                    $("#mostrar-header > a ").find("b").html(storeName);
-                    $("#mostrar-header > a ").find("span").html(storeName);
-                    $(".jq-chevronDown option:selected").text(storeName);
-                  }
-                  if (flagForNameCookie) {
-                    break;
-                  }
-                  flagForStoreCookie = true;
-                } else {
-                  if (flagForNameCookie) {
-                    break;
-                  }
-                  flagForStoreCookie = true;
-                }
-
-              }
-
-            } else {
-              ajaxCallForNameQuantityAndStore();
-            }
-          })
-        </script>
-        <script src="http://www.sodimac.com.pe/static/script/min/plugin/content.min.js?vid=3718"></script>
-        <script src="http://www.sodimac.com.pe/static/script/vendor/require.js?vid=3718" data-main="http://www.sodimac.com.pe/static/script/min/require/content"></script>
-        <script src="http://www.sodimac.com.pe/static/script/min/content.min.js?vid=3718"></script>
-        <script src="http://www.sodimac.com.pe/static/script/min/special/content.min.js?vid=3718"></script>
-        <script type='text/javascript'>
-          _satellite.pageBottom()
-        </script>
+      } else {
+        ajaxCallForNameQuantityAndStore();
+      }
+    })
+  </script>
+  <script src="http://www.sodimac.com.pe/static/script/min/plugin/content.min.js?vid=3718"></script>
+  <script src="http://www.sodimac.com.pe/static/script/vendor/require.js?vid=3718" data-main="http://www.sodimac.com.pe/static/script/min/require/content"></script>
+  <script src="http://www.sodimac.com.pe/static/script/min/content.min.js?vid=3718"></script>
+  <script src="http://www.sodimac.com.pe/static/script/min/special/content.min.js?vid=3718"></script>
+  <script type='text/javascript'>
+    _satellite.pageBottom()
+  </script>
 </body>
 
 </html>

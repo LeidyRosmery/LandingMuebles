@@ -1,90 +1,579 @@
-<link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/css/animate.css?v=a1">
-<link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/css/owl.carousel.min.css?v=a1">
-<link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/css/owl.theme.default.min.css?v=a1">
-<link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/css/main.css?v=a1">
-<!-- section banner - home -->
-<section id="carrusel-banner">
-  <div class="owl-carousel owl-theme">
-    <div class="slider-banner banner-1"></div>
-    <div class="slider-banner banner-2"></div>
-    <div class="slider-banner banner-3"></div>
+<link rel="stylesheet" type="text/css" href="/static/categorias/contenidoEstatico/guiasdecomprasope/2017/qa/resources/css/magnific-popup5.css?v=dqxnpwxkfx">
+<link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/css/animate.css?v=dqxnpwxkfx">
+<link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/css/owl.carousel.min.css?v=dqxnpwxkfx">
+<link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/css/owl.theme.default.min.css?v=dqxnpwxkfx">
+<link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/css/slick.css?v=dqxnpwxkfx">
+        <link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/css/slick-theme.css?v=dqxnpwxkfx">
+<link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/css/main.css?v=dqxnpwxkfx">
+
+<section class="banner-main">
+  <div class="row">
+    <div class="banner-home text-center">
+      <div class="slider-drag1 ">
+        <div class="slider-header slider-header-1">
+          <a class="link-banner" href="http://www.sodimac.com.pe/sodimac-pe/product/2262231C/Escritorio-en-L-+-Silla-Verona-negra/?cid=vtrlnd11144" title="Click" onclick="ga('send', 'event', '2018_2_Landing_Home_DeVueltaAlCole', 'Click', 'Boton_ComboEscritorioSilla')">
+            <div class="contenedor-logo">
+              <img class="logo-banner img-responsive" src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/img/banner/logo_banner.svg" alt="logo-banner">
+            </div>
+            <div class="contenedor-detail-product">
+              <div class="detail-producto">
+                <img class="img-combo" src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/img/banner/combo.png" class="text-left" alt="imagen-combo">
+                <p class="text-producto">Escritorio en L +</p>
+                <p class="text-producto">Silla Verona</p>
+                <p class="text-marca">SKU 2262231/2029162</p>
+                <span class="text-precio">S/ 299 <span class="text-decimal">.90</span></span>
+                <img class="hidden-xs hidden-sm mini-img" src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/img/banner/silla.jpg" alt="img-silla">
+              </div>
+              <a class="view-more" href="http://www.sodimac.com.pe/sodimac-pe/product/2262231C/Escritorio-en-L-+-Silla-Verona-negra/?cid=vtrlnd11144" title="Click" onclick="ga('send', 'event', '2018_2_Landing_Home_DeVueltaAlCole', 'Click', 'Boton_ComboEscritorioSilla')">+ Ver más</a>
+            </div>
+          </a>
+
+        </div>
+        <div class="slider-header slider-header-2">
+          <a class="link-banner" href="http://www.sodimac.com.pe/sodimac-pe/product/2579375/Escritorio-en-L/?cid=vtrlnd11146" title="Click" onclick="ga('send', 'event', '2018_2_Landing_Home_DeVueltaAlCole', 'Click', 'Boton_ComboRoperoComoda')">
+            <div class="contenedor-logo">
+              <img class="logo-banner img-responsive" src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/img/banner/logo_banner.svg" alt="logo-banner">
+            </div>
+            <div class="contenedor-detail-product">
+              <div class="detail-producto">
+                <img class="img-combo" src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/img/banner/combo.png" class="text-left" alt="imagen-combo">
+                <p class="text-producto">Ropero + Cómoda</p>
+                <p class="text-producto">Escritorio</p>
+                <p class="text-marca">SKU 2579375</p>
+                <span class="text-precio">S/ 499 <span class="text-decimal">.90</span></span>
+              </div>
+              <a class="view-more" href="http://www.sodimac.com.pe/sodimac-pe/product/2579375/Escritorio-en-L/?cid=vtrlnd11146" title="Click" onclick="ga('send', 'event', '2018_2_Landing_Home_DeVueltaAlCole', 'Click', 'Boton_ComboRoperoComoda')">+ Ver más</a>
+            </div>
+          </a>
+        </div>
+        <div class="slider-header slider-header-3">
+          <a class="link-banner" href="http://www.sodimac.com.pe/sodimac-pe/product/1279181/Cubos-creativos-x-8-unidades/?cid=vtrlnd11145" title="Click" onclick="ga('send', 'event', '2018_2_Landing_Home_DeVueltaAlCole', 'Click', 'Boton_ComboCubosCreativos')">
+            <div class="contenedor-logo">
+              <img class="logo-banner img-responsive" src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/img/banner/logo_banner.svg" alt="logo-banner">
+            </div>
+            <div class="contenedor-detail-product">
+              <div class="detail-producto">
+                <img class="img-combo" src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/img/banner/combo.png" class="text-left" alt="imagen-combo">
+                <p class="text-producto">Cubos creativos</p>
+                <p class="text-producto">x 8 und. Kids</p>
+                <p class="text-marca ">SKU 1279181</p>
+                <span class="text-precio">S/ 119 <span class="text-decimal">.90</span></span>
+              </div>
+              <a class="view-more" href="http://www.sodimac.com.pe/sodimac-pe/product/1279181/Cubos-creativos-x-8-unidades/?cid=vtrlnd11145" title="Click" onclick="ga('send', 'event', '2018_2_Landing_Home_DeVueltaAlCole', 'Click', 'Boton_ComboCubosCreativos')">+ Ver más</a>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 <!-- fin section banner-home -->
 <section class="contenido">
   <!-- section categorias -->
-  <div class="" style="margin-bottom:12px">
-    <a class="enlace-categoria" href="#">
-      <div class="row">
-        <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12">
-          <div class="categoria dormitorio">
-            <div class="nombre-categoria text-center">DORMITORIO <span class="glyphicon glyphicon-menu-up"></span></div>
-          </div>
-        </div>
-      </div>
-    </a>
-    <div class="menu menu-dormitorio">
-      <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom">
-          <div class="item-menu  ">Roperos <span class="arrow-item glyphicon glyphicon-menu-right"></div> </div>
-<div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom"><div class="item-menu ">Cómodas <span class="arrow-item glyphicon glyphicon-menu-right"> </div></div>
-<div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom "><div class="item-menu ">Colchones <span class="arrow-item glyphicon glyphicon-menu-right"> </div></div>
-<div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom"><div class="item-menu ">Organización <span class="arrow-item glyphicon glyphicon-menu-right"></div> </div>
-<div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right"><div class="item-menu ">Zapateras <span class="arrow-item glyphicon glyphicon-menu-right"> </div></div>
-</div>
-</div>
-</div>
-<div class="" style="margin-bottom:12px">
-<a class="enlace-categoria" href="#">
-<div class="row">
-<div class="col-xs-12 col-md-12 col-sm-12 col-lg-12">
-<div class="categoria dormitorio">
-  <div class="nombre-categoria text-center">DORMITORIO <span class="glyphicon glyphicon-menu-up"></span></div>
-        </div>
-      </div>
-    </div>
-    </a>
-    <div class="menu menu-dormitorio">
-      <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom">
-          <div class="item-menu  ">Roperos <span class="arrow-item glyphicon glyphicon-menu-right"></div> </div>
-<div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom"><div class="item-menu ">Cómodas <span class="arrow-item glyphicon glyphicon-menu-right"> </div></div>
-<div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom "><div class="item-menu ">Colchones <span class="arrow-item glyphicon glyphicon-menu-right"> </div></div>
-<div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom"><div class="item-menu ">Organización <span class="arrow-item glyphicon glyphicon-menu-right"></div> </div>
-<div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right"><div class="item-menu ">Zapateras <span class="arrow-item glyphicon glyphicon-menu-right"> </div></div>
-</div>
-</div>
-</div>
-<div class="" style="margin-bottom:12px">
-  <a class="enlace-categoria" href="#">
+  <div class="mueble-dormitorio" style="margin-bottom:12px">
+    <div class="categoria dormitorio">
     <div class="row">
-      <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12">
-        <div class="categoria sala">
-          <div class="nombre-categoria text-center">SALA <span class="arrow-item  glyphicon glyphicon-menu-up"></span></div>
+      <div class="col-xs-12 hidden-md">
+          <div class="nombre-categoria text-center">AMUEBLA DORMITORIO <span class="arrow arrow-categoria glyphicon glyphicon-menu-down"></span></div>
         </div>
       </div>
     </div>
-    </a>
+
+    <div class="menu menu-dormitorio animated fadeInDown">
+      <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom">
+          <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10314/Roperos " class="link-menu">
+            <div class="item-menu  ">Ropero <span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+          </a>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom">
+          <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10546/Colchones-y-Tarimas" class="link-menu">
+            <div class="item-menu  ">Colchones<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+          </a>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom ">
+          <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10316/Zapateras" class="link-menu">
+            <div class="item-menu  ">Zapateras<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+          </a>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom">
+          <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10312/Comodas-y-Cajoneas" class="link-menu">
+            <div class="item-menu  ">Cómodas<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+          </a>
+
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right ">
+          <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10480/Organizacion-de-ropero" class="link-menu">
+            <div class="item-menu  ">Organización de dormitorio<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mueble-sala" style="margin-bottom:12px">
+    <div class="categoria sala">
+    <div class="row">
+      <div class="col-xs-12 hidden-md">
+          <div class="nombre-categoria text-center">SALA <span class="arrow arrow-categoria glyphicon glyphicon-menu-down"></span></div>
+        </div>
+      </div>
+    </div>
+
     <div class="menu menu-sala animated fadeInDown">
       <div class="row">
         <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom">
-          <div class="item-menu  ">Roperos <span class="arrow-item glyphicon glyphicon-menu-right"></div> </div>
-        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom"><div class="item-menu ">Cómodas <span class="arrow-item glyphicon glyphicon-menu-right"> </div></div>
-        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom "><div class="item-menu ">Colchones <span class="arrow-item glyphicon glyphicon-menu-right"> </div></div>
-        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom"><div class="item-menu ">Organización <span class="arrow-item glyphicon glyphicon-menu-right"></div> </div>
-        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right"><div class="item-menu ">Zapateras <span class="arrow-item glyphicon glyphicon-menu-right"> </div></div>
+          <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10530/Sofas-Cama-y-Futones" class="link-menu">
+            <div class="item-menu  ">Futones <span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+          </a>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom">
+          <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat2229007/Mesas-Auxiliares" class="link-menu">
+            <div class="item-menu  ">Mesas deco<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+          </a>
+
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom ">
+          <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat2589002/Juegos-de-Sala" class="link-menu">
+            <div class="item-menu  ">Juego de sala<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+          </a>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom">
+          <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat2369032/Reclinables" class="link-menu">
+            <div class="item-menu  ">Reclinables<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+          </a>
+
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right ">
+          <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10506/Centros-de-Entretenimiento" class="link-menu">
+            <div class="item-menu  ">Centro de televisión<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
-</div>
+  <div class="mueble-comedor" style="margin-bottom:12px">
+    <div class="categoria comedor">
+    <div class="row">
+      <div class="col-xs-12 hidden-md">
+          <div class="nombre-categoria text-center">COMEDOR <span class="arrow arrow-categoria glyphicon glyphicon-menu-down"></span></div>
+        </div>
+      </div>
+    </div>
 
+    <div class="menu menu-comedor animated fadeInDown">
+      <div class="row" style="overflow:hidden">
+        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom">
+          <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat549146/Juegos-de-Comedor" class="link-menu">
+            <div class="item-menu  ">Juegos de comedor <span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+          </a>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom">
+          <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat2229002/SillasdeComedor" class="link-menu">
+            <div class="item-menu  ">Sillas de comedor<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+          </a>
+
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right ">
+          <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat919025/Bancos-y-Sillas-de-Bar" class="link-menu">
+            <div class="item-menu  ">Muebles de bar<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="mueble-estudio" style="margin-bottom:12px">
+    <div class="categoria estudio">
+    <div class="row">
+      <div class="col-xs-12 hidden-md">
+          <div class="nombre-categoria text-center">ESTUDIO<span class="arrow arrow-categoria glyphicon glyphicon-menu-down"></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu menu-estudio animated fadeInDown">
+      <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom">
+          <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10300/Escritorios" class="link-menu">
+            <div class="item-menu  ">Escritorio <span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+          </a>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom">
+          <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10294/Estantes-y-Libreros" class="link-menu">
+            <div class="item-menu  ">Libreros<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+          </a>
+
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0  bd-right ">
+          <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10484/Sets-de-escritorio-y-utiles" class="link-menu">
+            <div class="item-menu  ">Organización de  escritorio<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+          </a>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0  ">
+          <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat3189007/Sillas-de-oficina" class="link-menu">
+            <div class="item-menu  ">Sillas de  escritorio<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="mueble-deco" style="margin-bottom:12px">
+    <div class="categoria deco">
+    <div class="row">
+      <div class="col-xs-12 hidden-md">
+          <div class="nombre-categoria text-center">DECORA TUS ESPACIOS<span class="arrow arrow-categoria glyphicon glyphicon-menu-down"></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu menu-deco animated fadeInDown">
+      <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom">
+          <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10800/Alfombras-Decorativas" class="link-menu">
+            <div class="item-menu  ">Alfombras <span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+          </a>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom">
+          <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10818/Cuadros" class="link-menu">
+            <div class="item-menu  ">Cuadros<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+          </a>
+
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right  ">
+          <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10822/Cortinas-de-Tela" class="link-menu">
+            <div class="item-menu  ">Cortinas<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+          </a>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0  ">
+          <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10892/Lamparas-de-Mesa" class="link-menu">
+            <div class="item-menu  ">Iluminación<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="mueble-infantil" style="margin-bottom:12px">
+    <div class="categoria infantil">
+    <div class="row">
+      <div class="col-xs-12 hidden-md">
+          <div class="nombre-categoria text-center">ESPACIO INFANTIL<span class=" arrow arrow-categoria glyphicon glyphicon-menu-down"></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu menu-infantil animated fadeInDown">
+      <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-right bd-bottom">
+          <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat1049021/Muebles-de-Dormitorio-para-ninos" class="link-menu">
+            <div class="item-menu  ">Muebles dormitorio <span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+          </a>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0 bd-bottom">
+          <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat3189008/Organizacion" class="link-menu">
+            <div class="item-menu  ">Organizacion infantil<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+          </a>
+
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0  bd-right">
+          <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10538/Escritorios-para-Ninos" class="link-menu">
+            <div class="item-menu  ">Escritorios<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- fin seccion categorias -->
+  <!-- section css video -->
+  <div class="section-videos-tips">
+  <div class="row">
+    <div class="slider-for">
+      <div class="col-md-12 col-lg-12 hidden-xs hidden-sm">
+        <a href="https://www.youtube.com/watch?v=84096kP8Hwc" class="link-video popup-youtube" title="Click" >
+          <div class="img-video-tip video-tip-current video-tip-1">
+            <div class="space-left text-center">
+              <div class="contenedor-img-current text-center">
+                <img class="img-current text-center img-responsive" src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/img/logo-video/optimizacion_de_espacios.svg" alt="">
+              </div>
+
+              <p class="text-current">Aprovecha un rincón de tu dormitorio y conviértelo en tu zona de estudio. Aprende a integrar un escritorio en tu habitación con los siguientes consejos.</p>
+            </div>
+            <img class="div-play-current" src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/img/video-tip/play_azul.svg" alt="play-video">
+          </div>
+        </a>
+      </div>
+      <div class="col-md-12 col-lg-12 hidden-xs hidden-sm">
+        <a  class="link-video popup-youtube" href="https://www.youtube.com/watch?v=DdfzjtEiyO0" title="Click" >
+          <div class="img-video-tip video-tip-current video-tip-2">
+            <div class="space-left text-center">
+              <div class="contenedor-img-current text-center">
+                <img class="img-current text-center img-responsive" src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/img/logo-video/organizacion_de_espacios.svg" alt="">
+              </div>
+
+              <p class="text-current">Una área de estudio ordenada incrementa la atención y rendimiento académico. Clasifica tus objetos de uso diario y evita el desorden con los siguientes tips.
+              </p>
+            </div>
+            <img class="div-play-current" src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/img/video-tip/play_azul.svg" alt="play-video">
+          </div>
+        </a>
+      </div>
+      <div class="col-md-12 col-lg-12 hidden-xs hidden-sm">
+        <a href="https://www.youtube.com/watch?v=FDFGSNfSSXM" class="link-video popup-youtube"  title="Click">
+          <div class="img-video-tip video-tip-current video-tip-3">
+            <div class="space-left text-center">
+              <div class="contenedor-img-current text-center">
+                <img class="img-current text-center img-responsive" src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/img/logo-video/locheras_nutritivas.svg" alt="">
+              </div>
+              <p class="text-current">Una buena alimentación estimula la concentración y renueva la energía durante el día. Prepara una lonchera saludable siguiendo estos consejos.
+                <img class="div-play-current" src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/img/video-tip/play_azul.svg" alt="play-video">
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="contenedor-item-tip">
+    <div class="row">
+      <div class="hidden-lg hidden-md ">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip">
+          <div class="img-video-tip video-tip-1">
+            <a class="link-video-tip" title="Click"   href="https://www.youtube.com/watch?v=84096kP8Hwc">
+              <div class="contenedor-video-tip">
+                <div class="title-video-tip">
+                  <p class="hidden-md hidden-lg">OPTIMIZA </p>
+                  <p class="hidden-md hidden-lg"> TUS ESPACIOS</p>
+                  <p class="hidden-xs hidden-sm">OPTIMIZA TUS ESPACIOS</p>
+                </div>
+              </div>
+              <img class="div-play" src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/img/video-tip/play_azul.svg" alt="play-video">
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip">
+          <div class="img-video-tip video-tip-2">
+            <a class="link-video-tip" title="Click"   href="https://youtu.be/DdfzjtEiyO0">
+              <div class="contenedor-video-tip">
+                <div class="title-video-tip">
+                  <p class="hidden-md hidden-lg">ORGANIZA TU </p>
+                  <p class="hidden-md hidden-lg">ESCRITORIO</p>
+                  <p class="hidden-xs hidden-sm">ORGANIZA TU ESCRITORIO</p>
+                </div>
+              </div>
+              <img class="div-play" src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/img/video-tip/play_azul.svg" alt="play-video">
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip">
+          <div class="img-video-tip video-tip-3">
+            <a class="link-video-tip"  title="Click"  href="https://www.youtube.com/watch?v=FDFGSNfSSXM">
+              <div class="contenedor-video-tip">
+                <div class="title-video-tip">
+                  <p class="hidden-md hidden-lg">LONCHERAS </p>
+                  <p class="hidden-md hidden-lg"> NUTRITIVAS</p>
+                  <p class="hidden-xs hidden-sm">LONCHERAS NUTRITIVAS</p>
+                </div>
+              </div>
+              <img class="div-play" src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/img/video-tip/play_azul.svg" alt="play-video">
+            </a>
+          </div>
+        </div>
+        <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip hidden-video animated fadeInRight">
+          <div class="img-video-tip video-tip-1">
+            <a class="link-video-tip" title="Click"   href="https://www.youtube.com/watch?v=84096kP8Hwc">
+              <div class="contenedor-video-tip">
+                <div class="title-video-tip">
+                  <p class="hidden-md hidden-lg">OPTIMIZA </p>
+                  <p class="hidden-md hidden-lg"> TUS ESPACIOS</p>
+                  <p class="hidden-xs hidden-sm">OPTIMIZA TUS ESPACIOS</p>
+                </div>
+              </div>
+              <img class="div-play" src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/img/video-tip/play_azul.svg" alt="play-video">
+            </a>
+          </div>
+        </div>
+        <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip hidden-video animated fadeInRight">
+          <div class="img-video-tip video-tip-2">
+            <a class="link-video-tip" title="Click"  href="https://youtu.be/DdfzjtEiyO0">
+              <div class="contenedor-video-tip">
+                <div class="title-video-tip">
+                  <p class="hidden-md hidden-lg">ORGANIZA TU </p>
+                  <p class="hidden-md hidden-lg">ESCRITORIO</p>
+                  <p class="hidden-xs hidden-sm">ORGANIZA TU ESCRITORIO</p>
+                </div>
+              </div>
+              <img class="div-play" src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/img/video-tip/play_azul.svg" alt="play-video">
+            </a>
+          </div>
+        </div>
+        <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip hidden-video animated fadeInRight">
+          <div class="img-video-tip video-tip-3">
+            <a class="link-video-tip"  title="Click"  href="https://www.youtube.com/watch?v=FDFGSNfSSXM">
+              <div class="contenedor-video-tip">
+                <div class="title-video-tip">
+                  <p class="hidden-md hidden-lg">LONCHERAS </p>
+                  <p class="hidden-md hidden-lg"> NUTRITIVAS</p>
+                  <p class="hidden-xs hidden-sm">LONCHERAS NUTRITIVAS</p>
+                </div>
+              </div>
+              <img class="div-play" src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/img/video-tip/play_azul.svg" alt="play-video">
+            </a>
+          </div>
+        </div>
+        <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip hidden-video animated fadeInRight">
+          <div class="img-video-tip video-tip-3">
+            <a class="link-video-tip"  title="Click"  href="https://www.youtube.com/watch?v=FDFGSNfSSXM">
+              <div class="contenedor-video-tip">
+                <div class="title-video-tip">
+                  <p class="hidden-md hidden-lg">LONCHERAS </p>
+                  <p class="hidden-md hidden-lg"> NUTRITIVAS</p>
+                  <p class="hidden-xs hidden-sm">LONCHERAS NUTRITIVAS</p>
+                </div>
+              </div>
+              <img class="div-play" src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/img/video-tip/play_azul.svg" alt="play-video">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="change-responsive" class="hidden-xs hidden-sm slider-nav">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip">
+          <div class="img-video-tip video-tip-1">
+            <a class="link-video-tip" title="Click"  href="">
+              <div class="contenedor-video-tip">
+                <div class="title-video-tip">
+                  <p class="hidden-md hidden-lg">OPTIMIZA </p>
+                  <p class="hidden-md hidden-lg"> TUS ESPACIOS</p>
+                  <p class="hidden-xs hidden-sm">OPTIMIZA TUS ESPACIOS</p>
+                </div>
+              </div>
+              <img class="div-play" src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/img/video-tip/play_azul.svg" alt="play-video">
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip">
+          <div class="img-video-tip video-tip-1">
+            <a class="link-video-tip" title="Click"  href="">
+              <div class="contenedor-video-tip">
+                <div class="title-video-tip">
+                  <p class="hidden-md hidden-lg">OPTIMIZA </p>
+                  <p class="hidden-md hidden-lg"> TUS ESPACIOS</p>
+                  <p class="hidden-xs hidden-sm">OPTIMIZA TUS ESPACIOS</p>
+                </div>
+              </div>
+              <img class="div-play" src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/img/video-tip/play_azul.svg" alt="play-video">
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip">
+          <div class="img-video-tip video-tip-2">
+            <a class="link-video-tip" title="Click"   href="javascript:void(0)">
+              <div class="contenedor-video-tip">
+                <div class="title-video-tip">
+                  <p class="hidden-md hidden-lg">ORGANIZA TU </p>
+                  <p class="hidden-md hidden-lg">ESCRITORIO</p>
+                  <p class="hidden-xs hidden-sm">ORGANIZA TU ESCRITORIO</p>
+                </div>
+              </div>
+              <img class="div-play" src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/img/video-tip/play_azul.svg" alt="play-video">
+            </a>
+          </div>
+        </div>
+        <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip  ">
+          <div class="img-video-tip video-tip-2">
+            <a class="link-video-tip" title="Click" href="javascript:void(0)">
+              <div class="contenedor-video-tip">
+                <div class="title-video-tip">
+                  <p class="hidden-md hidden-lg">ORGANIZA TU </p>
+                  <p class="hidden-md hidden-lg">ESCRITORIO</p>
+                  <p class="hidden-xs hidden-sm">ORGANIZA TU ESCRITORIO</p>
+                </div>
+              </div>
+              <img class="div-play" src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/img/video-tip/play_azul.svg" alt="play-video">
+            </a>
+          </div>
+        </div>
+        <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip  ">
+          <div class="img-video-tip video-tip-3">
+            <a class="link-video-tip"  title="Click"  href="">
+              <div class="contenedor-video-tip">
+                <div class="title-video-tip">
+                  <p class="hidden-md hidden-lg">LONCHERAS </p>
+                  <p class="hidden-md hidden-lg"> NUTRITIVAS</p>
+                  <p class="hidden-xs hidden-sm">LONCHERAS NUTRITIVAS</p>
+                </div>
+              </div>
+              <img class="div-play" src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/img/video-tip/play_azul.svg" alt="play-video">
+            </a>
+          </div>
+        </div>
+        <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip  ">
+          <div class="img-video-tip video-tip-3">
+            <a class="link-video-tip"  title="Click"  href="">
+              <div class="contenedor-video-tip">
+                <div class="title-video-tip">
+                  <p class="hidden-md hidden-lg">LONCHERAS </p>
+                  <p class="hidden-md hidden-lg"> NUTRITIVAS</p>
+                  <p class="hidden-xs hidden-sm">LONCHERAS NUTRITIVAS</p>
+                </div>
+              </div>
+              <img class="div-play" src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/img/video-tip/play_azul.svg" alt="play-video">
+            </a>
+          </div>
+        </div>
+        <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip  ">
+          <div class="img-video-tip video-tip-1">
+            <a class="link-video-tip" title="Click"   href="">
+              <div class="contenedor-video-tip">
+                <div class="title-video-tip">
+                  <p class="hidden-md hidden-lg">OPTIMIZA </p>
+                  <p class="hidden-md hidden-lg"> TUS ESPACIOS</p>
+                  <p class="hidden-xs hidden-sm">OPTIMIZA TUS ESPACIOS</p>
+                </div>
+              </div>
+              <img class="div-play" src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/img/video-tip/play_azul.svg" alt="play-video">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 text-center hidden-md">
+          <div id="more" class="btn-more text-center">CARGAR MAS VIDEOS<span class="arrow arrow-video arrow-categoria glyphicon glyphicon-menu-down"></span></div>
+      </div>
+  </div>
+</div>
+  <!-- fin css videos -->
 </section>
-<script src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/js/carrusel.js?v=a1"></script>
-<script src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/jquery.min.js?v=a1"></script>
-<script src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/js/owl.carousel.min.js?v=a1"></script>
 
-<script src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/js/app.js?v=a1"></script>
 
+<script type="text/javascript" src="/static/categorias/contenidoEstatico/guiasdecomprasope/2017/qa/resources/js/jquery.magnific-popup5.js?v=dqxnpwxkfx"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/jquery.min.js?v=dqxnpwxkfx"></script>
+<script src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/js/owl.carousel.min.js?v=dqxnpwxkfx"></script>
+  <script src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/js/slick.js?v=dqxnpwxkfx"></script>
+  <script src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/js/carrusel.js?v=dqxnpwxkfx"></script>
+
+<script src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/js/app.js?v=dqxnpwxkfx"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+
+
+    $('.slick-prev').html('<span class="arrow-left glyphicon glyphicon-menu-left"></span>');
+    $('.slick-next').html('<span class="arrow-right glyphicon glyphicon-menu-right"></span>');
+    var heights = $(".prueba").map(function() {
+        return $(this).height();
+      }).get(),
+      maxHeight = Math.max.apply(null, heights);
+    $(".prueba").height(maxHeight);
+
+    // PLUGIN MAGNIFICPOPUP
+    $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+      disableOn: 700,
+      type: 'iframe',
+      mainClass: 'mfp-fade',
+      removalDelay: 160,
+      preloader: false,
+      fixedContentPos: false
+    });
+    //END MAGNIFICPOPUP
+  });
+</script>
 <!-- fin codigo landing Muebles -->
-
-</section>
