@@ -446,25 +446,25 @@
           </section>
           <script type="text/javascript" language="javascript">
             /*
-                                                                                                                                    You can use below ways to define rule.
-                                                                                                                                    1. "checkName" : {"msg":"your error message"}.
-                                                                                                                                    2. "checkName" : {"regex":"your regex expression","msg":"your error message"}.
+                                                                                                                                                You can use below ways to define rule.
+                                                                                                                                                1. "checkName" : {"msg":"your error message"}.
+                                                                                                                                                2. "checkName" : {"regex":"your regex expression","msg":"your error message"}.
 
-                                                                                                                                    For 1, you should add the mapping into validator.funMapping, such as:
-                                                                                                                                        validator.funMapping["your checkName"]= your check method for this check name.
-                                                                                                                                        validator.funMapping["test"]=validator.checkTest;
-                                                                                                                                        In the jsp, you can use it like this.  class="validate[test]"
+                                                                                                                                                For 1, you should add the mapping into validator.funMapping, such as:
+                                                                                                                                                    validator.funMapping["your checkName"]= your check method for this check name.
+                                                                                                                                                    validator.funMapping["test"]=validator.checkTest;
+                                                                                                                                                    In the jsp, you can use it like this.  class="validate[test]"
 
-                                                                                                                                    For 2. You only need to use it in the jsp like this. class="custom[checkName]".
+                                                                                                                                                For 2. You only need to use it in the jsp like this. class="custom[checkName]".
 
-                                                                                                                                    For1 & 2, you can add a special error/success message render function. Sample:
-                                                                                                                                        "required" : {
-                                                                                                                                            (required)"msg" : "error message",
-                                                                                                                                            (optional)"regex" : "your regex expression",
-                                                                                                                                            (optional)"succCall" : validator.requiredSuccCall,
-                                                                                                                                            (optional)"errorCall" : validator.requiredErrorCall
-                                                                                                                                        }
-                                                                                                                                    */
+                                                                                                                                                For1 & 2, you can add a special error/success message render function. Sample:
+                                                                                                                                                    "required" : {
+                                                                                                                                                        (required)"msg" : "error message",
+                                                                                                                                                        (optional)"regex" : "your regex expression",
+                                                                                                                                                        (optional)"succCall" : validator.requiredSuccCall,
+                                                                                                                                                        (optional)"errorCall" : validator.requiredErrorCall
+                                                                                                                                                    }
+                                                                                                                                                */
             function initRules() {
               allRules = {
                 //Have the single function checking.
@@ -2748,8 +2748,8 @@ color: white !important;
 
           <script type="text/javascript">
             /**
-                                                                                                                                    $( ".sub-nav.jq-subNav>li:first-child").before( "<li class='firstHover' ><a  href='http://www.sodimac.com.pe/sodimac-pe/content/a260001/Cyber-Peru-Sodimac' target='_self' title='Cyber Days'>Cyber Days</a></li>" );
-                                                                                                                                    console.log("prueba1");**/
+                                                                                                                                                $( ".sub-nav.jq-subNav>li:first-child").before( "<li class='firstHover' ><a  href='http://www.sodimac.com.pe/sodimac-pe/content/a260001/Cyber-Peru-Sodimac' target='_self' title='Cyber Days'>Cyber Days</a></li>" );
+                                                                                                                                                console.log("prueba1");**/
 
 
             $(".categoryDropdown1 > .sub-nav.jq-subNav>li:first-child").before("<li class='firstHover' ><a  href='http://www.sodimac.com.pe/sodimac-pe/CMR/N-1z141ek' target='_self' title='Imbatibles CMR'>Imbatibles CMR</a></li>");
@@ -3120,8 +3120,8 @@ color: white !important;
         <link rel="stylesheet" href="/assets/css/animate.css">
         <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
         <link rel="stylesheet" href="/assets/css/owl.theme.default.min.css">
-                <link rel="stylesheet" href="/assets/css/slick.css">
-                        <link rel="stylesheet" href="/assets/css/slick-theme.css">
+        <link rel="stylesheet" href="/assets/css/slick.css">
+        <link rel="stylesheet" href="/assets/css/slick-theme.css">
         <link rel="stylesheet" href="/assets/css/main.css">
         <section class="banner-main">
           <div class="row">
@@ -3188,10 +3188,17 @@ color: white !important;
         <section class="contenido">
           <!-- section categorias -->
           <div class="mueble mueble-dormitorio" style="margin-bottom:12px">
-            <div class="categoria dormitorio">
-            <div class="row">
-              <div class="col-xs-12 hidden-md">
-                  <div class="nombre-categoria text-center">AMUEBLA DORMITORIO <span class="arrow arrow-categoria glyphicon glyphicon-menu-down"></span></div>
+        
+            <div class="categoria categoria-dormitorio">
+              <div class="row">
+                <div class="col-xs-12 square-logo">
+                  <div class="nombre-categoria hidden-md text-center">AMUEBLA DORMITORIO <span class="arrow arrow-categoria glyphicon glyphicon-menu-down"></span></div>
+                  <div class="hidden-xs cont-logo">
+                    <img class="logo-cat" src="/assets/img/categorias/dormitorios.svg" alt="dormitorio">
+                    <p class="title-letter">AMUEBLA TU</p>
+                    <p class="title-detail"> DORMITORIO</p>
+                  </div>
+                  <div class="cont-ver-mas hidden-xs"> VER CATEGORIAS >></div>
                 </div>
               </div>
             </div>
@@ -3228,10 +3235,16 @@ color: white !important;
             </div>
           </div>
           <div class="mueble mueble-sala" style="margin-bottom:12px">
-            <div class="categoria sala">
-            <div class="row">
-              <div class="col-xs-12 hidden-md">
-                  <div class="nombre-categoria text-center">SALA <span class="arrow arrow-categoria glyphicon glyphicon-menu-down"></span></div>
+            <div class="categoria categoria-sala">
+              <div class="row">
+                <div class="col-xs-12 square-logo">
+                  <div class="nombre-categoria hidden-md text-center">SALA <span class="arrow arrow-categoria glyphicon glyphicon-menu-down"></span></div>
+                  <div class="hidden-xs cont-logo">
+                    <img class="logo-cat" src="/assets/img/categorias/espacios.svg" alt="dormitorio">
+                    <p class="title-letter">AMUEBLA </p>
+                    <p class="title-detail">TU DORMITORIO</p>
+                  </div>
+                  <div class="cont-ver-mas hidden-xs"> VER CATEGORIAS >></div>
                 </div>
               </div>
             </div>
@@ -3269,10 +3282,16 @@ color: white !important;
             </div>
           </div>
           <div class="mueble mueble-comedor" style="margin-bottom:12px">
-            <div class="categoria comedor">
-            <div class="row">
-              <div class="col-xs-12 hidden-md">
-                  <div class="nombre-categoria text-center">COMEDOR <span class="arrow arrow-categoria glyphicon glyphicon-menu-down"></span></div>
+            <div class="categoria categoria-comedor">
+              <div class="row">
+                <div class="col-xs-12 square-logo ">
+                  <div class="nombre-categoria hidden-md text-center">COMEDOR <span class="arrow arrow-categoria glyphicon glyphicon-menu-down"></span></div>
+                  <div class="hidden-xs cont-logo">
+                    <img class="logo-cat" src="/assets/img/categorias/deco.svg" alt="dormitorio">
+                    <p class="title-letter">AMUEBLA </p>
+                    <p class="title-detail">TU DORMITORIO</p>
+                  </div>
+                  <div class="cont-ver-mas hidden-xs"> VER CATEGORIAS >></div>
                 </div>
               </div>
             </div>
@@ -3300,10 +3319,16 @@ color: white !important;
             </div>
           </div>
           <div class="mueble mueble-estudio" style="margin-bottom:12px">
-            <div class="categoria estudio">
-            <div class="row">
-              <div class="col-xs-12 hidden-md">
-                  <div class="nombre-categoria text-center">ESTUDIO<span class="arrow arrow-categoria glyphicon glyphicon-menu-down"></span></div>
+            <div class="categoria categoria-estudio">
+              <div class="row">
+                <div class="col-xs-12 square-logo ">
+                  <div class="nombre-categoria hidden-md text-center">ESTUDIO<span class="arrow arrow-categoria glyphicon glyphicon-menu-down"></span></div>
+                  <div class="hidden-xs cont-logo">
+                    <img class="logo-cat" src="/assets/img/categorias/dormitorios.svg" alt="dormitorio">
+                    <p class="title-letter">AMUEBLA </p>
+                    <p class="title-detail">TU DORMITORIO</p>
+                  </div>
+                  <div class="cont-ver-mas hidden-xs"> VER CATEGORIAS >></div>
                 </div>
               </div>
             </div>
@@ -3323,12 +3348,12 @@ color: white !important;
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0  bd-right ">
                   <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat10484/Sets-de-escritorio-y-utiles" class="link-menu">
-                    <div class="item-menu  ">Organización de  escritorio<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+                    <div class="item-menu  ">Organización de escritorio<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
                   </a>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-12 col-md-12 pad-0  ">
                   <a href="http://www.sodimac.com.pe/sodimac-pe/category/cat3189007/Sillas-de-oficina" class="link-menu">
-                    <div class="item-menu  ">Sillas de  escritorio<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
+                    <div class="item-menu  ">Sillas de escritorio<span class="arrow glyphicon glyphicon-menu-right"></span> </div>
                   </a>
                 </div>
 
@@ -3336,10 +3361,16 @@ color: white !important;
             </div>
           </div>
           <div class="mueble mueble-deco" style="margin-bottom:12px">
-            <div class="categoria deco">
-            <div class="row">
-              <div class="col-xs-12 hidden-md">
-                  <div class="nombre-categoria text-center">DECORA TUS ESPACIOS<span class="arrow arrow-categoria glyphicon glyphicon-menu-down"></span></div>
+            <div class="categoria categoria-deco">
+              <div class="row">
+                <div class="col-xs-12 square-logo">
+                  <div class="nombre-categoria hidden-md text-center">DECORA TUS ESPACIOS<span class="arrow arrow-categoria glyphicon glyphicon-menu-down"></span></div>
+                  <div class="hidden-xs cont-logo">
+                    <img class="logo-cat" src="/assets/img/categorias/deco.svg" alt="dormitorio">
+                    <p class="title-letter">AMUEBLA </p>
+                    <p class="title-detail">TU DORMITORIO</p>
+                  </div>
+                  <div class="cont-ver-mas hidden-xs"> VER CATEGORIAS >></div>
                 </div>
               </div>
             </div>
@@ -3372,10 +3403,16 @@ color: white !important;
             </div>
           </div>
           <div class="mueble mueble-infantil" style="margin-bottom:12px">
-            <div class="categoria infantil">
-            <div class="row">
-              <div class="col-xs-12 hidden-md">
-                  <div class="nombre-categoria text-center">ESPACIO INFANTIL<span class=" arrow arrow-categoria glyphicon glyphicon-menu-down"></span></div>
+            <div class="categoria categoria-infantil">
+              <div class="row">
+                <div class="col-xs-12 square-logo ">
+                  <div class="nombre-categoria hidden-md text-center">ESPACIO INFANTIL<span class=" arrow arrow-categoria glyphicon glyphicon-menu-down"></span></div>
+                  <div class="hidden-xs cont-logo">
+                    <img class="logo-cat" src="/assets/img/categorias/espacios.svg" alt="dormitorio">
+                    <p class="title-letter">AMUEBLA TU </p>
+                    <p class="title-detail">ESPACIO INFANTIL</p>
+                  </div>
+                  <div class="cont-ver-mas hidden-xs"> VER CATEGORIAS >></div>
                 </div>
               </div>
             </div>
@@ -3404,273 +3441,273 @@ color: white !important;
           <!-- fin seccion categorias -->
           <!-- section css video -->
           <div class="section-videos-tips">
-          <div class="row">
-            <div class="slider-for">
-              <div class="col-md-12 col-lg-12 hidden-xs hidden-sm">
-                <a href="https://www.youtube.com/watch?v=84096kP8Hwc" data-video="0" class="link-video popup-youtube" title="Click" >
-                  <div class="img-video-tip video-tip-current video-tip-1">
-                    <div class="space-left text-center">
-                      <div class="contenedor-img-current text-center">
-                        <img class="img-current text-center img-responsive" src="/assets/img/logo-video/optimizacion_de_espacios.svg" alt="">
-                      </div>
+            <div class="row">
+              <div class="slider-for">
+                <div class="col-md-12 col-lg-12 hidden-xs hidden-sm">
+                  <a href="https://www.youtube.com/watch?v=84096kP8Hwc" data-video="0" class="link-video popup-youtube" title="Click">
+                    <div class="img-video-tip video-tip-current video-tip-1">
+                      <div class="space-left text-center">
+                        <div class="contenedor-img-current text-center">
+                          <img class="img-current text-center img-responsive" src="/assets/img/logo-video/optimizacion_de_espacios.svg" alt="">
+                        </div>
 
-                      <p class="text-current">Aprovecha un rincón de tu dormitorio y conviértelo en tu zona de estudio. Aprende a integrar un escritorio en tu habitación con los siguientes consejos.</p>
-                    </div>
-                    <img class="div-play-current" src="/assets/img/video-tip/play_azul.svg" alt="play-video">
-                  </div>
-                </a>
-              </div>
-              <div class="col-md-12 col-lg-12 hidden-xs hidden-sm">
-                <a data-video="1" class="link-video popup-youtube" href="https://www.youtube.com/watch?v=DdfzjtEiyO0" title="Click" >
-                  <div class="img-video-tip video-tip-current video-tip-2">
-                    <div class="space-left text-center">
-                      <div class="contenedor-img-current text-center">
-                        <img class="img-current text-center img-responsive" src="/assets/img/logo-video/organizacion_de_espacios.svg" alt="">
+                        <p class="text-current">Aprovecha un rincón de tu dormitorio y conviértelo en tu zona de estudio. Aprende a integrar un escritorio en tu habitación con los siguientes consejos.</p>
                       </div>
+                      <img class="div-play-current" src="/assets/img/video-tip/play_azul.svg" alt="play-video">
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-12 col-lg-12 hidden-xs hidden-sm">
+                  <a data-video="1" class="link-video popup-youtube" href="https://www.youtube.com/watch?v=DdfzjtEiyO0" title="Click">
+                    <div class="img-video-tip video-tip-current video-tip-2">
+                      <div class="space-left text-center">
+                        <div class="contenedor-img-current text-center">
+                          <img class="img-current text-center img-responsive" src="/assets/img/logo-video/organizacion_de_espacios.svg" alt="">
+                        </div>
 
-                      <p class="text-current">Una área de estudio ordenada incrementa la atención y rendimiento académico. Clasifica tus objetos de uso diario y evita el desorden con los siguientes tips.
-                      </p>
-                    </div>
-                    <img class="div-play-current" src="/assets/img/video-tip/play_azul.svg" alt="play-video">
-                  </div>
-                </a>
-              </div>
-              <div class="col-md-12 col-lg-12 hidden-xs hidden-sm">
-                <a href="https://www.youtube.com/watch?v=FDFGSNfSSXM" class="link-video popup-youtube" data-video="2" title="Click">
-                  <div class="img-video-tip video-tip-current video-tip-3">
-                    <div class="space-left text-center">
-                      <div class="contenedor-img-current text-center">
-                        <img class="img-current text-center img-responsive" src="/assets/img/logo-video/locheras_nutritivas.svg" alt="">
+                        <p class="text-current">Una área de estudio ordenada incrementa la atención y rendimiento académico. Clasifica tus objetos de uso diario y evita el desorden con los siguientes tips.
+                        </p>
                       </div>
-                      <p class="text-current">Una buena alimentación estimula la concentración y renueva la energía durante el día. Prepara una lonchera saludable siguiendo estos consejos.
-                        <img class="div-play-current" src="/assets/img/video-tip/play_azul.svg" alt="play-video">
+                      <img class="div-play-current" src="/assets/img/video-tip/play_azul.svg" alt="play-video">
                     </div>
-                  </div>
-                </a>
+                  </a>
+                </div>
+                <div class="col-md-12 col-lg-12 hidden-xs hidden-sm">
+                  <a href="https://www.youtube.com/watch?v=FDFGSNfSSXM" class="link-video popup-youtube" data-video="2" title="Click">
+                    <div class="img-video-tip video-tip-current video-tip-3">
+                      <div class="space-left text-center">
+                        <div class="contenedor-img-current text-center">
+                          <img class="img-current text-center img-responsive" src="/assets/img/logo-video/locheras_nutritivas.svg" alt="">
+                        </div>
+                        <p class="text-current">Una buena alimentación estimula la concentración y renueva la energía durante el día. Prepara una lonchera saludable siguiendo estos consejos.
+                          <img class="div-play-current" src="/assets/img/video-tip/play_azul.svg" alt="play-video">
+                      </div>
+                    </div>
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="contenedor-item-tip">
-            <div class="row">
-              <div class="hidden-lg hidden-md ">
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip">
-                  <div class="img-video-tip video-tip-1">
-                    <a class="link-video-tip" title="Click"  data-video="0" href="https://www.youtube.com/watch?v=84096kP8Hwc">
-                      <div class="contenedor-video-tip">
-                        <div class="title-video-tip">
-                          <p class="hidden-md hidden-lg">OPTIMIZA </p>
-                          <p class="hidden-md hidden-lg"> TUS ESPACIOS</p>
-                          <p class="hidden-xs hidden-sm">OPTIMIZA TUS ESPACIOS</p>
+            <div class="contenedor-item-tip">
+              <div class="row">
+                <div class="hidden-lg hidden-md ">
+                  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip">
+                    <div class="img-video-tip video-tip-1">
+                      <a class="link-video-tip" title="Click" data-video="0" href="https://www.youtube.com/watch?v=84096kP8Hwc">
+                        <div class="contenedor-video-tip">
+                          <div class="title-video-tip">
+                            <p class="hidden-md hidden-lg">OPTIMIZA </p>
+                            <p class="hidden-md hidden-lg"> TUS ESPACIOS</p>
+                            <p class="hidden-xs hidden-sm">OPTIMIZA TUS ESPACIOS</p>
+                          </div>
                         </div>
-                      </div>
-                      <img class="div-play" src="/assets/img/video-tip/play_azul.svg" alt="play-video">
-                    </a>
+                        <img class="div-play" src="/assets/img/video-tip/play_azul.svg" alt="play-video">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip">
+                    <div class="img-video-tip video-tip-2">
+                      <a class="link-video-tip" title="Click" data-video="1" href="https://youtu.be/DdfzjtEiyO0">
+                        <div class="contenedor-video-tip">
+                          <div class="title-video-tip">
+                            <p class="hidden-md hidden-lg">ORGANIZA TU </p>
+                            <p class="hidden-md hidden-lg">ESCRITORIO</p>
+                            <p class="hidden-xs hidden-sm">ORGANIZA TU ESCRITORIO</p>
+                          </div>
+                        </div>
+                        <img class="div-play" src="/assets/img/video-tip/play_azul.svg" alt="play-video">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip">
+                    <div class="img-video-tip video-tip-3">
+                      <a class="link-video-tip" data-video="2" title="Click" href="https://www.youtube.com/watch?v=FDFGSNfSSXM">
+                        <div class="contenedor-video-tip">
+                          <div class="title-video-tip">
+                            <p class="hidden-md hidden-lg">LONCHERAS </p>
+                            <p class="hidden-md hidden-lg"> NUTRITIVAS</p>
+                            <p class="hidden-xs hidden-sm">LONCHERAS NUTRITIVAS</p>
+                          </div>
+                        </div>
+                        <img class="div-play" src="/assets/img/video-tip/play_azul.svg" alt="play-video">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip hidden-video animated fadeInRight">
+                    <div class="img-video-tip video-tip-1">
+                      <a class="link-video-tip" title="Click" data-video="0" href="https://www.youtube.com/watch?v=84096kP8Hwc">
+                        <div class="contenedor-video-tip">
+                          <div class="title-video-tip">
+                            <p class="hidden-md hidden-lg">OPTIMIZA </p>
+                            <p class="hidden-md hidden-lg"> TUS ESPACIOS</p>
+                            <p class="hidden-xs hidden-sm">OPTIMIZA TUS ESPACIOS</p>
+                          </div>
+                        </div>
+                        <img class="div-play" src="/assets/img/video-tip/play_azul.svg" alt="play-video">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip hidden-video animated fadeInRight">
+                    <div class="img-video-tip video-tip-2">
+                      <a class="link-video-tip" title="Click" data-video="1" href="https://youtu.be/DdfzjtEiyO0">
+                        <div class="contenedor-video-tip">
+                          <div class="title-video-tip">
+                            <p class="hidden-md hidden-lg">ORGANIZA TU </p>
+                            <p class="hidden-md hidden-lg">ESCRITORIO</p>
+                            <p class="hidden-xs hidden-sm">ORGANIZA TU ESCRITORIO</p>
+                          </div>
+                        </div>
+                        <img class="div-play" src="/assets/img/video-tip/play_azul.svg" alt="play-video">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip hidden-video animated fadeInRight">
+                    <div class="img-video-tip video-tip-3">
+                      <a class="link-video-tip" data-video="2" title="Click" href="https://www.youtube.com/watch?v=FDFGSNfSSXM">
+                        <div class="contenedor-video-tip">
+                          <div class="title-video-tip">
+                            <p class="hidden-md hidden-lg">LONCHERAS </p>
+                            <p class="hidden-md hidden-lg"> NUTRITIVAS</p>
+                            <p class="hidden-xs hidden-sm">LONCHERAS NUTRITIVAS</p>
+                          </div>
+                        </div>
+                        <img class="div-play" src="/assets/img/video-tip/play_azul.svg" alt="play-video">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip hidden-video animated fadeInRight">
+                    <div class="img-video-tip video-tip-3">
+                      <a class="link-video-tip" data-video="2" title="Click" href="https://www.youtube.com/watch?v=FDFGSNfSSXM">
+                        <div class="contenedor-video-tip">
+                          <div class="title-video-tip">
+                            <p class="hidden-md hidden-lg">LONCHERAS </p>
+                            <p class="hidden-md hidden-lg"> NUTRITIVAS</p>
+                            <p class="hidden-xs hidden-sm">LONCHERAS NUTRITIVAS</p>
+                          </div>
+                        </div>
+                        <img class="div-play" src="/assets/img/video-tip/play_azul.svg" alt="play-video">
+                      </a>
+                    </div>
                   </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip">
-                  <div class="img-video-tip video-tip-2">
-                    <a class="link-video-tip" title="Click"  data-video="1" href="https://youtu.be/DdfzjtEiyO0">
-                      <div class="contenedor-video-tip">
-                        <div class="title-video-tip">
-                          <p class="hidden-md hidden-lg">ORGANIZA TU </p>
-                          <p class="hidden-md hidden-lg">ESCRITORIO</p>
-                          <p class="hidden-xs hidden-sm">ORGANIZA TU ESCRITORIO</p>
+                <div id="change-responsive" class="hidden-xs hidden-sm slider-nav">
+                  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip">
+                    <div class="img-video-tip video-tip-1">
+                      <a class="link-video-tip" title="Click" data-video="0" href="">
+                        <div class="contenedor-video-tip">
+                          <div class="title-video-tip">
+                            <p class="hidden-md hidden-lg">OPTIMIZA </p>
+                            <p class="hidden-md hidden-lg"> TUS ESPACIOS</p>
+                            <p class="hidden-xs hidden-sm">OPTIMIZA TUS ESPACIOS</p>
+                          </div>
                         </div>
-                      </div>
-                      <img class="div-play" src="/assets/img/video-tip/play_azul.svg" alt="play-video">
-                    </a>
+                        <img class="div-play" src="/assets/img/video-tip/play_blanco.svg" alt="play-video">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip">
+                    <div class="img-video-tip video-tip-1">
+                      <a class="link-video-tip" title="Click" data-video="0" href="">
+                        <div class="contenedor-video-tip">
+                          <div class="title-video-tip">
+                            <p class="hidden-md hidden-lg">OPTIMIZA </p>
+                            <p class="hidden-md hidden-lg"> TUS ESPACIOS</p>
+                            <p class="hidden-xs hidden-sm">OPTIMIZA TUS ESPACIOS</p>
+                          </div>
+                        </div>
+                        <img class="div-play" src="/assets/img/video-tip/play_blanco.svg" alt="play-video">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip">
+                    <div class="img-video-tip video-tip-2">
+                      <a class="link-video-tip" title="Click" data-video="1" href="javascript:void(0)">
+                        <div class="contenedor-video-tip">
+                          <div class="title-video-tip">
+                            <p class="hidden-md hidden-lg">ORGANIZA TU </p>
+                            <p class="hidden-md hidden-lg">ESCRITORIO</p>
+                            <p class="hidden-xs hidden-sm">ORGANIZA TU ESCRITORIO</p>
+                          </div>
+                        </div>
+                        <img class="div-play" src="/assets/img/video-tip/play_blanco.svg" alt="play-video">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip  ">
+                    <div class="img-video-tip video-tip-2">
+                      <a class="link-video-tip" title="Click" data-video="1" href="javascript:void(0)">
+                        <div class="contenedor-video-tip">
+                          <div class="title-video-tip">
+                            <p class="hidden-md hidden-lg">ORGANIZA TU </p>
+                            <p class="hidden-md hidden-lg">ESCRITORIO</p>
+                            <p class="hidden-xs hidden-sm">ORGANIZA TU ESCRITORIO</p>
+                          </div>
+                        </div>
+                        <img class="div-play" src="/assets/img/video-tip/play_blanco.svg" alt="play-video">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip  ">
+                    <div class="img-video-tip video-tip-3">
+                      <a class="link-video-tip" data-video="2" title="Click" href="">
+                        <div class="contenedor-video-tip">
+                          <div class="title-video-tip">
+                            <p class="hidden-md hidden-lg">LONCHERAS </p>
+                            <p class="hidden-md hidden-lg"> NUTRITIVAS</p>
+                            <p class="hidden-xs hidden-sm">LONCHERAS NUTRITIVAS</p>
+                          </div>
+                        </div>
+                        <img class="div-play" src="/assets/img/video-tip/play_blanco.svg" alt="play-video">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip  ">
+                    <div class="img-video-tip video-tip-3">
+                      <a class="link-video-tip" data-video="2" title="Click" href="">
+                        <div class="contenedor-video-tip">
+                          <div class="title-video-tip">
+                            <p class="hidden-md hidden-lg">LONCHERAS </p>
+                            <p class="hidden-md hidden-lg"> NUTRITIVAS</p>
+                            <p class="hidden-xs hidden-sm">LONCHERAS NUTRITIVAS</p>
+                          </div>
+                        </div>
+                        <img class="div-play" src="/assets/img/video-tip/play_blanco.svg" alt="play-video">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip  ">
+                    <div class="img-video-tip video-tip-1">
+                      <a class="link-video-tip" title="Click" data-video="0" href="">
+                        <div class="contenedor-video-tip">
+                          <div class="title-video-tip">
+                            <p class="hidden-md hidden-lg">OPTIMIZA </p>
+                            <p class="hidden-md hidden-lg"> TUS ESPACIOS</p>
+                            <p class="hidden-xs hidden-sm">OPTIMIZA TUS ESPACIOS</p>
+                          </div>
+                        </div>
+                        <img class="div-play" src="/assets/img/video-tip/play_blanco.svg" alt="play-video">
+                      </a>
+                    </div>
                   </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip">
-                  <div class="img-video-tip video-tip-3">
-                    <a class="link-video-tip" data-video="2" title="Click"  href="https://www.youtube.com/watch?v=FDFGSNfSSXM">
-                      <div class="contenedor-video-tip">
-                        <div class="title-video-tip">
-                          <p class="hidden-md hidden-lg">LONCHERAS </p>
-                          <p class="hidden-md hidden-lg"> NUTRITIVAS</p>
-                          <p class="hidden-xs hidden-sm">LONCHERAS NUTRITIVAS</p>
-                        </div>
-                      </div>
-                      <img class="div-play" src="/assets/img/video-tip/play_azul.svg" alt="play-video">
-                    </a>
-                  </div>
-                </div>
-                <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip hidden-video animated fadeInRight">
-                  <div class="img-video-tip video-tip-1">
-                    <a class="link-video-tip" title="Click"  data-video="0" href="https://www.youtube.com/watch?v=84096kP8Hwc">
-                      <div class="contenedor-video-tip">
-                        <div class="title-video-tip">
-                          <p class="hidden-md hidden-lg">OPTIMIZA </p>
-                          <p class="hidden-md hidden-lg"> TUS ESPACIOS</p>
-                          <p class="hidden-xs hidden-sm">OPTIMIZA TUS ESPACIOS</p>
-                        </div>
-                      </div>
-                      <img class="div-play" src="/assets/img/video-tip/play_azul.svg" alt="play-video">
-                    </a>
-                  </div>
-                </div>
-                <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip hidden-video animated fadeInRight">
-                  <div class="img-video-tip video-tip-2">
-                    <a class="link-video-tip" title="Click"  data-video="1" href="https://youtu.be/DdfzjtEiyO0">
-                      <div class="contenedor-video-tip">
-                        <div class="title-video-tip">
-                          <p class="hidden-md hidden-lg">ORGANIZA TU </p>
-                          <p class="hidden-md hidden-lg">ESCRITORIO</p>
-                          <p class="hidden-xs hidden-sm">ORGANIZA TU ESCRITORIO</p>
-                        </div>
-                      </div>
-                      <img class="div-play" src="/assets/img/video-tip/play_azul.svg" alt="play-video">
-                    </a>
-                  </div>
-                </div>
-                <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip hidden-video animated fadeInRight">
-                  <div class="img-video-tip video-tip-3">
-                    <a class="link-video-tip" data-video="2" title="Click"  href="https://www.youtube.com/watch?v=FDFGSNfSSXM">
-                      <div class="contenedor-video-tip">
-                        <div class="title-video-tip">
-                          <p class="hidden-md hidden-lg">LONCHERAS </p>
-                          <p class="hidden-md hidden-lg"> NUTRITIVAS</p>
-                          <p class="hidden-xs hidden-sm">LONCHERAS NUTRITIVAS</p>
-                        </div>
-                      </div>
-                      <img class="div-play" src="/assets/img/video-tip/play_azul.svg" alt="play-video">
-                    </a>
-                  </div>
-                </div>
-                <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip hidden-video animated fadeInRight">
-                  <div class="img-video-tip video-tip-3">
-                    <a class="link-video-tip" data-video="2" title="Click"  href="https://www.youtube.com/watch?v=FDFGSNfSSXM">
-                      <div class="contenedor-video-tip">
-                        <div class="title-video-tip">
-                          <p class="hidden-md hidden-lg">LONCHERAS </p>
-                          <p class="hidden-md hidden-lg"> NUTRITIVAS</p>
-                          <p class="hidden-xs hidden-sm">LONCHERAS NUTRITIVAS</p>
-                        </div>
-                      </div>
-                      <img class="div-play" src="/assets/img/video-tip/play_azul.svg" alt="play-video">
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div id="change-responsive" class="hidden-xs hidden-sm slider-nav">
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip">
-                  <div class="img-video-tip video-tip-1">
-                    <a class="link-video-tip" title="Click"  data-video="0" href="">
-                      <div class="contenedor-video-tip">
-                        <div class="title-video-tip">
-                          <p class="hidden-md hidden-lg">OPTIMIZA </p>
-                          <p class="hidden-md hidden-lg"> TUS ESPACIOS</p>
-                          <p class="hidden-xs hidden-sm">OPTIMIZA TUS ESPACIOS</p>
-                        </div>
-                      </div>
-                      <img class="div-play" src="/assets/img/video-tip/play_blanco.svg" alt="play-video">
-                    </a>
-                  </div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip">
-                  <div class="img-video-tip video-tip-1">
-                    <a class="link-video-tip" title="Click"  data-video="0" href="">
-                      <div class="contenedor-video-tip">
-                        <div class="title-video-tip">
-                          <p class="hidden-md hidden-lg">OPTIMIZA </p>
-                          <p class="hidden-md hidden-lg"> TUS ESPACIOS</p>
-                          <p class="hidden-xs hidden-sm">OPTIMIZA TUS ESPACIOS</p>
-                        </div>
-                      </div>
-                      <img class="div-play" src="/assets/img/video-tip/play_blanco.svg" alt="play-video">
-                    </a>
-                  </div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip">
-                  <div class="img-video-tip video-tip-2">
-                    <a class="link-video-tip" title="Click"  data-video="1" href="javascript:void(0)">
-                      <div class="contenedor-video-tip">
-                        <div class="title-video-tip">
-                          <p class="hidden-md hidden-lg">ORGANIZA TU </p>
-                          <p class="hidden-md hidden-lg">ESCRITORIO</p>
-                          <p class="hidden-xs hidden-sm">ORGANIZA TU ESCRITORIO</p>
-                        </div>
-                      </div>
-                      <img class="div-play" src="/assets/img/video-tip/play_blanco.svg" alt="play-video">
-                    </a>
-                  </div>
-                </div>
-                <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip  ">
-                  <div class="img-video-tip video-tip-2">
-                    <a class="link-video-tip" title="Click"  data-video="1" href="javascript:void(0)">
-                      <div class="contenedor-video-tip">
-                        <div class="title-video-tip">
-                          <p class="hidden-md hidden-lg">ORGANIZA TU </p>
-                          <p class="hidden-md hidden-lg">ESCRITORIO</p>
-                          <p class="hidden-xs hidden-sm">ORGANIZA TU ESCRITORIO</p>
-                        </div>
-                      </div>
-                      <img class="div-play" src="/assets/img/video-tip/play_blanco.svg" alt="play-video">
-                    </a>
-                  </div>
-                </div>
-                <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip  ">
-                  <div class="img-video-tip video-tip-3">
-                    <a class="link-video-tip" data-video="2" title="Click"  href="">
-                      <div class="contenedor-video-tip">
-                        <div class="title-video-tip">
-                          <p class="hidden-md hidden-lg">LONCHERAS </p>
-                          <p class="hidden-md hidden-lg"> NUTRITIVAS</p>
-                          <p class="hidden-xs hidden-sm">LONCHERAS NUTRITIVAS</p>
-                        </div>
-                      </div>
-                      <img class="div-play" src="/assets/img/video-tip/play_blanco.svg" alt="play-video">
-                    </a>
-                  </div>
-                </div>
-                <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip  ">
-                  <div class="img-video-tip video-tip-3">
-                    <a class="link-video-tip" data-video="2" title="Click"  href="">
-                      <div class="contenedor-video-tip">
-                        <div class="title-video-tip">
-                          <p class="hidden-md hidden-lg">LONCHERAS </p>
-                          <p class="hidden-md hidden-lg"> NUTRITIVAS</p>
-                          <p class="hidden-xs hidden-sm">LONCHERAS NUTRITIVAS</p>
-                        </div>
-                      </div>
-                      <img class="div-play" src="/assets/img/video-tip/play_blanco.svg" alt="play-video">
-                    </a>
-                  </div>
-                </div>
-                <div class="div-video col-xs-12 col-sm-12 col-md-4 col-lg-4 pad-video-tip  ">
-                  <div class="img-video-tip video-tip-1">
-                    <a class="link-video-tip" title="Click"  data-video="0" href="">
-                      <div class="contenedor-video-tip">
-                        <div class="title-video-tip">
-                          <p class="hidden-md hidden-lg">OPTIMIZA </p>
-                          <p class="hidden-md hidden-lg"> TUS ESPACIOS</p>
-                          <p class="hidden-xs hidden-sm">OPTIMIZA TUS ESPACIOS</p>
-                        </div>
-                      </div>
-                      <img class="div-play" src="/assets/img/video-tip/play_blanco.svg" alt="play-video">
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xs-12 text-center hidden-md">
+                <div class="col-xs-12 text-center hidden-md">
                   <div id="more" class="btn-more text-center">CARGAR MAS VIDEOS<span class="arrow arrow-video arrow-categoria glyphicon glyphicon-menu-down"></span></div>
+                </div>
               </div>
-          </div>
-        </div>
-          <!-- fin css videos -->
+            </div>
+            <!-- fin css videos -->
         </section>
 
         <script src="/assets/jquery.min.js?v=1"></script>
         <script src="/assets/js/owl.carousel.min.js?v=1"></script>
-            <script src="/assets/js/slick.js?v=1"></script>
+        <script src="/assets/js/slick.js?v=1"></script>
 
-                    <script src="/assets/js/carrusel.js?v=1"></script>
+        <script src="/assets/js/carrusel.js?v=1"></script>
         <script src="/assets/js/app.js?v=1"></script>
 
         <!-- fin codigo landing Muebles -->
 
       </section>
-    </div>
+      </div>
   </main>
   <footer id="footer">
 

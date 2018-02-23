@@ -122,6 +122,10 @@
   padding: 0;
 }
 
+.hidde-xs, .hidde-sm {
+  display: none;
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -138,62 +142,14 @@ a:hover {
 
 /****************************************************************************************/
 
-/* #carrusel-banner {
-  background: #e4e4e4;
-}
-
-.slider-banner {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 300px;
-}
-
-.banner-1 {
-  background-image: url(../img/banner/mobile/banner1-mobile.jpeg);
-}
-
-.banner-2 {
-  background-image: url(../img/banner/mobile/banner2-mobile.jpeg);
-}
-
-.banner-3 {
-  background-image: url(../img/banner/mobile/banner3-mobile.jpeg);
-}
-
-.prev-banner, .next-banner {
-  width: 22px;
-  height: 40px;
-  margin-top: -20px;
-  position: absolute;
-  top: 42%;
-}
-
-#carrusel-banner .owl-dot span {
-  background: #fff;
-}
-
-#carrusel-banner .owl-dot.active span {
-  background: #0072CE;
-}
-
-.prev-banner {
-  left: 10px;
-}
-
-.next-banner {
-  right: 10px;
-} */
-
-
-
 .slider-header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   /* background-size: auto; */
-  height: 300px;
+  height: 360px;
 }
+
 .slick-dots {
   display: flex;
   justify-content: center;
@@ -257,6 +213,7 @@ a:hover {
   text-align: left;
   line-height: 21px;
 }
+
 .text-producto, .text-marca {
   font-family: miso;
   color: #333;
@@ -264,11 +221,13 @@ a:hover {
   text-align: left;
   line-height: 14px;
 }
+
 .text-marca {
   color: gray;
   font-size: 11px;
   line-height: 20px;
 }
+
 .img-combo {
   width: 55px;
 }
@@ -280,6 +239,7 @@ a:hover {
   width: 100%;
   display: block;
 }
+
 .contenedor-detail-product {
   width: 114px;
   height: 677px;
@@ -289,11 +249,13 @@ a:hover {
   top: 43px;
   display: inline-block;
 }
+
 .link-banner {
   display: block;
   height: 100%;
   color: #000;
 }
+
 .contenedor-logo {
   width: 125px;
   position: relative;
@@ -302,15 +264,15 @@ a:hover {
 }
 
 .slider-header-1 {
-  background-image: url(../img/banner/mobile/banner1-mobile.jpeg);
+  background-image: url(../img/banner/mobile/banner1-mobile.jpg);
 }
 
 .slider-header-2 {
-  background-image: url(../img/banner/mobile/banner2-mobile.jpeg);
+  background-image: url(../img/banner/mobile/banner2-mobile.jpg);
 }
 
 .slider-header-3 {
-  background-image: url(../img/banner/mobile/banner3-mobile.jpeg);
+  background-image: url(../img/banner/mobile/banner3-mobile.jpg);
 }
 
 /* fin css banner */
@@ -351,7 +313,6 @@ a:hover {
   }
 }
 
-
 .mueble {
   margin-bottom: 12px;
 }
@@ -364,28 +325,28 @@ a:hover {
   border-bottom: 5px solid #0072CE;
 }
 
-.categoria.dormitorio {
-  background-image: url(../img/categorias/mobile/dormitorio-mobile.jpeg);
+.categoria.categoria-dormitorio {
+  background-image: url(../img/categorias/mobile/dormitorio-mobile.jpg);
 }
 
-.categoria.sala {
-  background-image: url(../img/categorias/mobile/sala-mobile.jpeg);
+.categoria.categoria-sala {
+  background-image: url(../img/categorias/mobile/sala-mobile.jpg);
 }
 
-.categoria.comedor {
-  background-image: url(../img/categorias/mobile/comedor-mobile.jpeg);
+.categoria.categoria-comedor {
+  background-image: url(../img/categorias/mobile/comedor-mobile.jpg);
 }
 
-.categoria.estudio {
-  background-image: url(../img/categorias/mobile/estudio-mobile.jpeg);
+.categoria.categoria-estudio {
+  background-image: url(../img/categorias/mobile/estudio-mobile.jpg);
 }
 
-.categoria.deco {
-  background-image: url(../img/categorias/mobile/deco-mobile.jpeg);
+.categoria.categoria-deco {
+  background-image: url(../img/categorias/mobile/deco-mobile.jpg);
 }
 
-.categoria.infantil {
-  background-image: url(../img/categorias/mobile/infantil-mobile.jpeg);
+.categoria.categoria-infantil {
+  background-image: url(../img/categorias/mobile/infantil-mobile.jpg);
 }
 
 .nombre-categoria {
@@ -501,31 +462,31 @@ a:hover {
 /* *******************************************************  */
 
 .video-tip-1 {
-  background-image: url(../img/video-tip/mobile/tip1-mobile.jpeg);
+  background-image: url(../img/video-tip/mobile/tip1-mobile.jpg);
 }
 
 .video-tip-3 {
-  background-image: url(../img/video-tip/mobile/tip3-mobile.jpeg);
+  background-image: url(../img/video-tip/mobile/tip3-mobile.jpg);
 }
 
 .video-tip-2 {
-  background-image: url(../img/video-tip/mobile/tip2-mobile.jpeg);
+  background-image: url(../img/video-tip/mobile/tip2-mobile.jpg);
 }
 
 .video-tip-4 {
-  background-image: url(../img/video-tip/mobile/tip4-mobile.jpeg);
+  background-image: url(../img/video-tip/mobile/tip4-mobile.jpg);
 }
 
 .video-tip-5 {
-  background-image: url(../img/video-tip/mobile/tip5-mobile.jpeg);
+  background-image: url(../img/video-tip/mobile/tip5-mobile.jpg);
 }
 
 .video-tip-6 {
-  background-image: url(../img/video-tip/mobile/tip6-mobile.jpeg);
+  background-image: url(../img/video-tip/mobile/tip6-mobile.jpg);
 }
 
 .video-tip-7 {
-  background-image: url(../img/video-tip/mobile/tip7-mobile.jpeg);
+  background-image: url(../img/video-tip/mobile/tip7-mobile.jpg);
 }
 
 .btn-more {
@@ -560,9 +521,11 @@ a.link-video-tip {
   margin-bottom: 3px;
   position: relative;
 }
+
 .slick-dotted.slick-slider {
-    margin-bottom: 46px;
+  margin-bottom: 46px;
 }
+
 .title-video-tip {
   color: #fff;
   font-family: 'miso';
@@ -591,11 +554,12 @@ a.link-video-tip {
   top: 70%;
   left: 80%;
 }
-.arrow-video{
+
+.arrow-video {
   color: #fff!important;
-      position: relative;
-      padding-left: 20px;
-      top: -5px;
+  position: relative;
+  padding-left: 20px;
+  top: -5px;
 }
 
 .hidden-video {
@@ -615,17 +579,17 @@ a.link-video-tip {
 /* *******************************************************  */
 
 @media (min-width: 992px) {
-  .slick-dotted.slick-slider {
-      margin-bottom: 46px;
-  }
-  .hidden-lg , .hidden-md {
+  .hidden-lg, .hidden-md {
     display: none;
   }
-
   .slider-header {
-    height: 445px;
-
+    height: 455px;
   }
+  /* }
+  .slick-dotted.slick-slider {
+    margin-bottom: 46px;
+  }
+
 
   .slider-drag1 ul.slick-dots {
     display: inline-block!important;
@@ -642,7 +606,7 @@ a.link-video-tip {
     padding: 1px;
   }
   .slider-drag1 .slick-dots li button {
-    /* display: inline-block; */
+
     padding: 0;
     margin: 0;
     height: 11px;
@@ -665,7 +629,8 @@ a.link-video-tip {
   .banner-home .slick-dots .slick-active button {
     opacity: 1;
     background: #0072CE;
-  }
+  }*/
+
   .view-more {
     top: 102.5%;
     padding: 10px;
@@ -678,7 +643,6 @@ a.link-video-tip {
     top: 58px;
     left: 176px;
   }
-
   img.mini-img {
     width: 40px;
     height: 73px;
@@ -722,13 +686,13 @@ a.link-video-tip {
     padding-left: 15px;
   }
   .slider-header-1 {
-    background-image: url(../img/banner/desktop/banner1.jpeg);
+    background-image: url(../img/banner/desktop/banner1.jpg);
   }
   .slider-header-2 {
-    background-image: url(../img/banner/desktop/banner2.jpeg);
+    background-image: url(../img/banner/desktop/banner2.jpg);
   }
   .slider-header-3 {
-    background-image: url(../img/banner/desktop/banner3.jpeg);
+    background-image: url(../img/banner/desktop/banner3.jpg);
   }
   /* ****************************************** */
   /* css categoria */
@@ -738,18 +702,61 @@ a.link-video-tip {
     position: relative;
   }
   .bd-bottom {
-      border: none;
+    border: none;
   }
-  .item-menu{
+  p.title-letter {
+    font-size: 18px;
+    font-family: miso;
+    line-height: 21px;
+  }
+  p.title-detail {
+    font-family: miso;
+    font-size: 22px;
+    line-height: 29px;
+  }
+  img.logo-cat {
+    width: 74px;
+    margin: 17px 0;
+  }
+  .cont-ver-mas {
+    background-image: url(../img/categorias/cuadro-rojo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 160px;
+    position: relative;
+    left: 41px;
+    padding-left: 14px;
+    text-align: center;
+    top: 86px;
+    font-size: 18px;
+    font-family: miso;
+    color: #fff;
+    line-height: 35px;
+    height: 35px;
+  }
+  .cont-logo {
+    background-image: url(../img/categorias/cuadro-blanco.svg);
+    width: 160px;
+    position: relative;
+    top: 83.5px;
+    left: 41px;
+    display: inline-block;
+    text-align: center;
+    height: 175px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .item-menu {
     border-bottom: 1px solid #fff;
   }
-  .menu{
+  .menu {
     bottom: -12px;
     position: absolute;
     height: 387px;
-    opacity: 1;
-    /* -webkit-transition: width 10s; /* For Safari 3.1 to 6.0 */
-    /*transition: width 10s; */
+    -webkit-transition: width 1s;
+    /* For Safari 3.1 to 6.0 */
+    transition: width 1s;
     width: 0px;
     display: flex;
     padding: 0;
@@ -758,44 +765,53 @@ a.link-video-tip {
     overflow: hidden;
     background: #0072CE;
   }
-  .container-menu{
-    opacity: 0;
-    -webkit-transition: opacity 2.5s; /* For Safari 3.1 to 6.0 */
-    transition: opacity 2.5s;
-  }
-  .mueble:hover .menu{
-      width: 272px;
-  
-  }
-  .mueble:hover .container-menu{
-  opacity: 1;
+  .mueble:hover .menu {
+    width: 272px;
   }
   .pad-0 {
-      padding: 0 35px;
+    padding: 0 35px;
+  }
+  .mueble-dormitorio:hover .categoria-dormitorio {
+    background-position: 150px center;
+  }
+  .mueble:hover .categoria {
+    background-position: 150px center;
+  }
+  .square-logo {
+    opacity: 1;
+    transition: -webkit-transform .4s ease-in-out;
+    transition: opacity .4s ease-in-out;
+    transition: opacity .4s ease-in-out, -webkit-transform .4s ease-in-out;
+  }
+  .mueble:hover .square-logo {
+    opacity: 0;
   }
   .categoria {
     height: 387px;
     position: relative;
     border: none;
     border-left: 5px solid #0072CE;
+    transition: -webkit-transform .3s ease-in-out;
+    transition: background-position .3s ease-in-out;
+    transition: background-position .3s ease-in-out, -webkit-transform .3s ease-in-out;
   }
-  .categoria.dormitorio {
-    background-image: url(../img/categorias/desktop/dormitorio.jpeg);
+  .categoria.categoria-dormitorio {
+    background-image: url(../img/categorias/desktop/dormitorio.jpg);
   }
-  .categoria.sala {
-    background-image: url(../img/categorias/desktop/sala.jpeg);
+  .categoria.categoria-sala {
+    background-image: url(../img/categorias/desktop/sala.jpg);
   }
-  .categoria.comedor {
-    background-image: url(../img/categorias/desktop/comedor.jpeg);
+  .categoria.categoria-comedor {
+    background-image: url(../img/categorias/desktop/comedor.jpg);
   }
-  .categoria.estudio {
-    background-image: url(../img/categorias/desktop/estudio.jpeg);
+  .categoria.categoria-estudio {
+    background-image: url(../img/categorias/desktop/estudio.jpg);
   }
-  .categoria.deco {
-    background-image: url(../img/categorias/desktop/deco.jpeg);
+  .categoria.categoria-deco {
+    background-image: url(../img/categorias/desktop/deco.jpg);
   }
-  .categoria.infantil {
-    background-image: url(../img/categorias/desktop/infantil.jpeg);
+  .categoria.categoria-infantil {
+    background-image: url(../img/categorias/desktop/infantil.jpg);
   }
   /* ****************************************** */
   /* css videos */
@@ -816,25 +832,25 @@ a.link-video-tip {
     transition: background-color 1s;
   }
   .video-tip-1 {
-    background-image: url(../img/video-tip/desktop/tip1.jpeg);
+    background-image: url(../img/video-tip/desktop/tip1.jpg);
   }
   .video-tip-3 {
-    background-image: url(../img/video-tip/desktop/tip3.jpeg);
+    background-image: url(../img/video-tip/desktop/tip3.jpg);
   }
   .video-tip-2 {
-    background-image: url(../img/video-tip/desktop/tip2.jpeg);
+    background-image: url(../img/video-tip/desktop/tip2.jpg);
   }
   .video-tip-4 {
-    background-image: url(../img/video-tip/desktop/tip4.jpeg);
+    background-image: url(../img/video-tip/desktop/tip4.jpg);
   }
   .video-tip-5 {
-    background-image: url(../img/video-tip/desktop/tip5.jpeg);
+    background-image: url(../img/video-tip/desktop/tip5.jpg);
   }
   .video-tip-6 {
-    background-image: url(../img/video-tip/desktop/tip6.jpeg);
+    background-image: url(../img/video-tip/desktop/tip6.jpg);
   }
   .video-tip-7 {
-    background-image: url(../img/video-tip/desktop/tip7.jpeg);
+    background-image: url(../img/video-tip/desktop/tip7.jpg);
   }
   .img-video-tip {
     height: 155px;
@@ -880,7 +896,7 @@ a.link-video-tip {
     color: #0072CE;
   }
   .contenedor-item-tip {
-    padding: 10px 0;
+    padding: 10px 40px;
     background: #fff;
     margin-bottom: 20px;
   }

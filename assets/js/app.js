@@ -1,23 +1,29 @@
 var widthWindows = $(window).width();
-$('.categoria').on('click', function(e) {
-  $('.nombre-categoria span').removeClass('glyphicon-menu-up');
-  $('.nombre-categoria span').addClass('glyphicon-menu-down');
-  $('.menu').css('display', 'none');
-  $('.nombre-categoria').removeClass('active');
-  e.preventDefault();
-  $(this).next().toggleClass('mostrar', function(e) {
-    if ($(this).is(".mostrar")) {
-      $(this).prev().find('.nombre-categoria').addClass('active');
-      $(this).prev().find('.nombre-categoria span').removeClass('glyphicon-menu-down');
-      $(this).prev().find('.nombre-categoria span').addClass('glyphicon-menu-up');
-      $(this).fadeIn();
-    } else {
-      $(this).prev().find('.nombre-categoria').removeClass('active');
-      $(this).prev().find('.nombre-categoria span').removeClass('glyphicon-menu-up');
-      $(this).prev().find('.nombre-categoria span').addClass('glyphicon-menu-down');
-    }
+
+$('.slick-prev').html('<span class="arrow-left glyphicon glyphicon-menu-left"></span>');
+$('.slick-next').html('<span class="arrow-right glyphicon glyphicon-menu-right"></span>');
+
+if (widthWindows < 992) {
+  $('.categoria').on('click', function(e) {
+    $('.nombre-categoria span').removeClass('glyphicon-menu-up');
+    $('.nombre-categoria span').addClass('glyphicon-menu-down');
+    $('.menu').css('display', 'none');
+    $('.nombre-categoria').removeClass('active');
+    e.preventDefault();
+    $(this).next().toggleClass('mostrar', function(e) {
+      if ($(this).is(".mostrar")) {
+        $(this).prev().find('.nombre-categoria').addClass('active');
+        $(this).prev().find('.nombre-categoria span').removeClass('glyphicon-menu-down');
+        $(this).prev().find('.nombre-categoria span').addClass('glyphicon-menu-up');
+        $(this).fadeIn();
+      } else {
+        $(this).prev().find('.nombre-categoria').removeClass('active');
+        $(this).prev().find('.nombre-categoria span').removeClass('glyphicon-menu-up');
+        $(this).prev().find('.nombre-categoria span').addClass('glyphicon-menu-down');
+      }
+    });
   });
-});
+}
 var init = false;
 $("#more").on('click', function() {
   console.log(init);
@@ -25,8 +31,12 @@ $("#more").on('click', function() {
     $('#more').html('CARGAR MAS VIDEOS<span class="arrow arrow-video arrow-categoria glyphicon glyphicon-menu-down"></span>');
     $('.div-video').removeClass('fadeInRight');
     $('.div-video').addClass('fadeOutRight');
+    $('html, body').animate({scrollTop:2230}, 'slow');
     init = false;
   } else {
+
+
+
     $('.div-video').addClass('fadeInRight');
     $('.div-video').removeClass('fadeOutRight');
     $('#more').html('CARGAR MENOS VIDEOS<span class="arrow arrow-video arrow-categoria glyphicon glyphicon-menu-up"></span>');
@@ -39,8 +49,7 @@ $("#more").on('click', function() {
 
 $(document).ready(function() {
   if (widthWindows > 992) {
-    // $('.menu').removeClass('fadeInDown');
-      // $('.menu').addClass('fadeInLeft');
+    $('.menu').removeClass('fadeInDown');
     $('#carrusel-banner .owl-dot').empty();
     $('.link-banner').on('click', function(e) {
       e.preventDefault();
